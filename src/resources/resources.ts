@@ -25,16 +25,20 @@ export const Resources: Resource[] = [
 
 type PeopleTypes = {
     name: string,
+    description: string,
+    href: string,
 }
 
-export const People = {
+export const People: Record<string, PeopleTypes> = {
     "David Deutsch": {
         name: 'David Deutsch',
-        description: 'wrote BoI'
+        description: 'David Elieser Deutsch FRS is a British physicist at the University of Oxford. He is a Visiting Professor in the Department of Atomic and Laser Physics at the Centre for Quantum Computation in the Clarendon Laboratory of the University of Oxford.',
+        href: 'http://www.daviddeutsch.org.uk/h',
     },
     "Brett Hall": {
         name: 'Brett Hall',
-        intro: "doing ToKCast"
+        description: "doing ToKCast",
+        href: 'https://www.bretthall.org/',
     },
 }
 

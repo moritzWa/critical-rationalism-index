@@ -1,10 +1,10 @@
 import React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
+// import { Link } from "gatsby"
+// import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Table from '../components/table'
+import ResourceTable from '../components/ResourceTable'
 
 // TODO: add filter logic: 
 // pressing pill button should filter for books articles podcasts etc.
@@ -21,7 +21,7 @@ const IndexPage = () => (
     </div> */}
     {/* <p><Link to="/page-2/">Go to page 2</Link></p> */}
     <h1>Resources</h1>
-    <Table/>
+    <ResourceTable/>
   </Layout>
 )
 
