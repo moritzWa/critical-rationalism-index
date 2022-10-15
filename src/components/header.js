@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
+import Button from './button'
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
@@ -47,16 +48,15 @@ function Header({ siteTitle }) {
             page 2
           </Link>
         </div>
-        <div>
           <a
             href="https://github.com/moritzWa/critical-rationalism-index"
             target="_blank"
             rel="noreferrer"
-            className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-black hover:bg-white lg:mt-0"
           >
-            Contribute
+             <Button>
+              Contribute
+            </Button>
           </a>
-        </div>
       </div>
     </nav>
   )

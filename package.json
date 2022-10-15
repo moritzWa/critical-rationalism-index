@@ -5,6 +5,7 @@
   "version": "0.3.0",
   "author": "Kostas Vrouvas <hello@kosvrouvas.com>",
   "dependencies": {
+    "@heroicons/react": "^2.0.12",
     "autoprefixer": "^10.4.7",
     "gatsby": "^4.24.4",
     "gatsby-plugin-google-analytics": "^4.0.0",
