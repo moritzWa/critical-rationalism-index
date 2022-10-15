@@ -1,9 +1,5 @@
 import React from 'react'
 import { Resources } from '../resources/resources'
-const resources = [
-  { name: 'Lindsay Walton', title: 'Front-end Developer', email: 'lindsay.walton@example.com', role: 'Member' },
-  // More people...
-]
 
 export function clsx(...classes) {
   return classes.filter(Boolean).join(' ')

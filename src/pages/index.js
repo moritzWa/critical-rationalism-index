@@ -20,6 +20,7 @@ const IndexPage = () => (
       />
     </div> */}
     {/* <p><Link to="/page-2/">Go to page 2</Link></p> */}
+    <h1>Resources</h1>
     <Table/>
   </Layout>
 )

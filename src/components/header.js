@@ -39,13 +39,13 @@ function Header({ siteTitle }) {
             href="#responsive-header"
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            Home
+            Resources
           </Link>
           <Link
-            to={`/page-2`}
+            to={`/People`}
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            page 2
+            People
           </Link>
         </div>
           <a
@@ -53,7 +53,7 @@ function Header({ siteTitle }) {
             target="_blank"
             rel="noreferrer"
           >
-            <Button>
+          <Button>
               Contribute
           </Button>
           </a>
