@@ -49,12 +49,12 @@ function Header({ siteTitle }) {
         </div>
         <div>
           <a
-            href="https://github.com/kosvrouvas/gatsby-tailwindcss-starter"
+            href="https://github.com/moritzWa/critical-rationalism-index"
             target="_blank"
             rel="noreferrer"
             className="inline-block px-4 py-2 mt-4 text-sm leading-none text-white border border-white rounded hover:border-transparent hover:text-black hover:bg-white lg:mt-0"
           >
-            Download
+            Contribute
           </a>
         </div>
       </div>
