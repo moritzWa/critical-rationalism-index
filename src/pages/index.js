@@ -6,11 +6,13 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Table from '../components/table'
 
+// TODO: add filter logic: 
+// pressing pill button should filter for books articles podcasts etc.
+// and pass this state down to the table component  
+
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>This is still under construction</h1>
-    
+    <SEO title="Home" />    
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <StaticImage
         src="../images/gatsby-astronaut.png"

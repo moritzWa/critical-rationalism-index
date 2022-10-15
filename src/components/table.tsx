@@ -88,7 +88,7 @@ export default function Example() {
                   <td
                     className={clsx(
                       rIndex !== resources.length - 1 ? 'border-b border-gray-200' : '',
-                      'relative whitespace-nowrap py-4 pr-4 pl-3 text-right text-sm font-medium sm:pr-6 lg:pr-8'
+                      'relative whitespace-nowrap py-4 pr-4 pl-3 text-sm font-medium sm:pr-6 lg:pr-8'
                     )}
                   >
                     <a href={resource.href}  
