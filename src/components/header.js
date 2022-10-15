@@ -49,6 +49,16 @@ function Header({ siteTitle }) {
           </Link>
         </div>
           <a
+            // href="https://github.com/moritzWa/critical-rationalism-index"
+            target="_blank"
+            rel="noreferrer"
+            className='pr-4'
+          >
+          <Button onClick={() => alert("A Substack will be linked here in the coming days.")}>
+              Newsletter
+          </Button>
+          </a>
+          <a
             href="https://github.com/moritzWa/critical-rationalism-index"
             target="_blank"
             rel="noreferrer"
@@ -57,7 +67,7 @@ function Header({ siteTitle }) {
               Contribute
           </Button>
           </a>
-      </div>
+        </div>
     </nav>
   )
 }
