@@ -1,11 +1,11 @@
 type Resource = {
-    name: String,
-    authors: String[],
-    description: String,
-    href: String,
+    name: string,
+    authors: string[],
+    description: string,
+    href: string,
 }
 
-export const resources: Resource[] = [
+export const Resources: Resource[] = [
     {
         name: 'The Beginning of Infinity: Explanations That Transform the World',
         authors: ['David Deutsch'],

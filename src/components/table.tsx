@@ -1,5 +1,6 @@
 import React from 'react'
-const people = [
+import { Resources } from '../resources/resources'
+const resources = [
   { name: 'Lindsay Walton', title: 'Front-end Developer', email: 'lindsay.walton@example.com', role: 'Member' },
   // More people...
 ]
@@ -50,48 +51,50 @@ export default function Example() {
               </tr>
             </thead>
             <tbody className="bg-white">
-              {people.map((person, personIdx) => (
-                <tr key={person.email}>
+              {Resources.map((resource, rIndex) => (
+                <tr key={resource.name}>
                   <td
                     className={clsx(
-                      personIdx !== people.length - 1 ? 'border-b border-gray-200' : '',
+                      rIndex !== resources.length - 1 ? 'border-b border-gray-200' : '',
                       'whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6 lg:pl-8'
                     )}
                   >
-                    {person.name}
+                    {resource.name}
                   </td>
                   <td
                     className={clsx(
-                      personIdx !== people.length - 1 ? 'border-b border-gray-200' : '',
+                      rIndex !== resources.length - 1 ? 'border-b border-gray-200' : '',
                       'whitespace-nowrap px-3 py-4 text-sm text-gray-500 hidden sm:table-cell'
                     )}
                   >
-                    {person.title}
+                    {resource.authors}
                   </td>
                   <td
                     className={clsx(
-                      personIdx !== people.length - 1 ? 'border-b border-gray-200' : '',
-                      'whitespace-nowrap px-3 py-4 text-sm text-gray-500 hidden lg:table-cell'
+                      rIndex !== resources.length - 1 ? 'border-b border-gray-200' : '',
+                      'w-1/4 whitespace-pre-wrap px-3 py-4 text-sm text-gray-500 hidden lg:table-cell'
                     )}
                   >
-                    {person.email}
+                    {resource.description}
                   </td>
-                  <td
+                  {/* <td
                     className={clsx(
                       personIdx !== people.length - 1 ? 'border-b border-gray-200' : '',
                       'whitespace-nowrap px-3 py-4 text-sm text-gray-500'
                     )}
                   >
-                    {person.role}
-                  </td>
+                    {person.href}
+                  </td> */}
                   <td
                     className={clsx(
-                      personIdx !== people.length - 1 ? 'border-b border-gray-200' : '',
+                      rIndex !== resources.length - 1 ? 'border-b border-gray-200' : '',
                       'relative whitespace-nowrap py-4 pr-4 pl-3 text-right text-sm font-medium sm:pr-6 lg:pr-8'
                     )}
                   >
-                    <a href="#" className="text-indigo-600 hover:text-indigo-900">
-                      Edit<span className="sr-only">, {person.name}</span>
+                    <a href={resource.href}  
+                       target="_blank" rel="noopener noreferrer"
+                       className="text-indigo-600 hover:text-indigo-900">
+                      Open<span className="sr-only">, {resource.href}</span>
                     </a>
                   </td>
                 </tr>

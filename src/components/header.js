@@ -53,9 +53,9 @@ function Header({ siteTitle }) {
             target="_blank"
             rel="noreferrer"
           >
-             <Button>
+            <Button>
               Contribute
-            </Button>
+          </Button>
           </a>
       </div>
     </nav>
@@ -67,7 +67,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: ``,
+  siteTitle: `Critiral Rationalism Index`,
 }
 
 export default Header
