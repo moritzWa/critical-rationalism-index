@@ -93,7 +93,7 @@ export default function PeopleTable() {
                     <a href={person.href}  
                        target="_blank" rel="noopener noreferrer"
                        className="text-indigo-600 hover:text-indigo-900">
-                      Open Webpresence<span className="sr-only">, {person.href}</span>
+                      Open Website<span className="sr-only">, {person.href}</span>
                     </a>
                   </td>
                 </tr>
