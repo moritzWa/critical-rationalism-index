@@ -47,7 +47,8 @@ export const People = {
     } as PeopleTypes,
     "Logan Chipkin": { 
         name: "Logan Chipkin",
-        description: "Logan Chipkin is a writer in Philadelphia. His previous publications can be found on his website. He is also working on a fiction novel, chapters of which can be found here.",
+        description: "Logan Chipkin is a writer in Philadelphia. His previous publications can be found on his website. He is also working on a fiction novel, chapters of which can be found on his Substack.",
+        href: "http://www.loganchipkin.com/",
     }as PeopleTypes,
     "Dennis Hackethal": { 
         name: "Dennis Hackethal",
@@ -62,6 +63,16 @@ export const People = {
     "Bruce Nielson": { 
         name: "Bruce Nielson",
         description: "Bruce Nielson runs FourStrands.org and hosts the Theory of Anything podcast. Both explore subjects related to David Deutsch's 'Four Strands'.",
+        href: "https://twitter.com/bnielson01",
+    } as PeopleTypes,
+    "Lulie Tannett": {
+        name: "Lulie Tannett",
+        description: "Lulie Tanett is a writer from Oxford, England, specialising in applied critical rationalism. She writes about all things epistemology — from education and memetics, to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
+        href: "https://reasonisfun.com/",
+    } as PeopleTypes,
+    "Christofer Lövgren": {
+        name: "Christofer Lövgren",
+        description: "Christofer Lövgren is running the Do Explain podcast.",
     } as PeopleTypes,
 }
 
@@ -99,11 +110,16 @@ export const Sources: Source[] = [
         href: 'https://fourstrands.org/',
         authors: ['Bruce Nielson'],
     },
-    // https://anchor.fm/four-strands
     {
         name: 'Theory of Anything podcast',
         type: SourceType.podcast,
         href: 'https://anchor.fm/four-strands',
         authors: ['Bruce Nielson'],
+    },
+    {
+        name: 'Do Explain podcast',
+        type: SourceType.podcast,
+        href: 'https://doexplain.buzzsprout.com/',
+        authors: ['Christofer Lövgren'],
     }
 ]
