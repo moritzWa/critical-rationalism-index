@@ -41,7 +41,13 @@ export const People = {
         name: 'Brett Hall',
         description: "doing ToKCast",
         websiteURL: 'https://www.bretthall.org/',
-        twitterURL: 'https://mobile.twitter.com/tokteacher/',
+        twitterURL: 'https://twitter.com/tokteacher/',
+    } as PeopleTypes,
+    "Naval Ravikant": {
+        name: 'Naval Ravikant',
+        description: "Naval Ravikant is an Indian-American entrepreneur, investor, and author. He is the co-founder and CEO of AngelList and Spearhead",
+        websiteURL: 'https://nav.al/',
+        twitterURL: 'https://twitter.com/naval',
     } as PeopleTypes,
     "Aaron Stupple": {
         name: 'Aaron Stupple',
@@ -57,13 +63,13 @@ export const People = {
         name: "Dennis Hackethal",
         description: "Dennis Hackethal is a philosopher and software engineer. His book A Window on Intelligence is aimed at the general reader and covers artificial general intelligence, the evolution of people, AI safety, and more.",
         websiteURL: "https://blog.dennishackethal.com/",
-        twitterURL: "https://mobile.twitter.com/dchackethal",
+        twitterURL: "https://twitter.com/dchackethal",
     } as PeopleTypes,
     "Ella Hoeppner": { 
         name: "Ella Hoeppner",
         description: "Ella Hoeppner is a software engineer with an interest in epistemology, artificial general intelligence, and artificial life. She writes at FourStrands.org and at her website.",
         websiteURL: "https://www.ellahoeppner.com/",
-        twitterURL: "https://mobile.twitter.com/ella_hoeppner",
+        twitterURL: "https://twitter.com/ella_hoeppner",
     } as PeopleTypes,
     "Bruce Nielson": { 
         name: "Bruce Nielson",
