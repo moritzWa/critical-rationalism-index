@@ -71,7 +71,7 @@ export default function PeopleTable() {
                   <td
                     className={clsx(
                       pIndex !== PeopleArray.length - 1 ? 'border-b border-gray-200' : '',
-                      'w-1/4 whitespace-pre-wrap px-3 py-4 text-sm text-gray-500 hidden lg:table-cell'
+                      'min-w-1/4 whitespace-pre-wrap px-3 py-4 text-sm text-gray-500 hidden lg:table-cell'
                     )}
                   >
                     {person.description}

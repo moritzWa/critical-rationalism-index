@@ -73,6 +73,17 @@ export const People = {
     "Christofer Lövgren": {
         name: "Christofer Lövgren",
         description: "Christofer Lövgren is running the Do Explain podcast.",
+        href: "https://twitter.com/ReachChristofer",
+    } as PeopleTypes,
+    "Ben Chugg": {
+        name: "Ben Chugg",
+        description: "Ben is a computer scientist at Stanford Law School, mostly working on sequential decision-making problems. He has done work in optimization, complexity theory, graph theory, and machine learning and is co-host of the Increments podcast.",
+        href: "https://www.incrementspodcast.com/",
+    } as PeopleTypes, 
+    "Vaden Masrani": {
+        name: "Vaden Masrani",
+        description: "Vaden is a Ph.D student at the University of British Columbia where he focuses on machine learning, probabilistic programming, bayesian inference and other topics. He's also the co-host of the Increments podcast.",
+        href: "https://vmasrani.github.io/",
     } as PeopleTypes,
 }
 
@@ -121,5 +132,11 @@ export const Sources: Source[] = [
         type: SourceType.podcast,
         href: 'https://doexplain.buzzsprout.com/',
         authors: ['Christofer Lövgren'],
+    },
+    {
+        name: 'Increments podcast',
+        type: SourceType.podcast,
+        href: 'https://www.incrementspodcast.com/',
+        authors: ['Ben Chugg', 'Vaden Masrani'],
     }
 ]

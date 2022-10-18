@@ -9,7 +9,7 @@ const People = (props: PageProps) => (
   <Layout>
     <SEO title="People" />
     <h1>People</h1>
-    {/* <p>Welcome to page 2 ({props.path})</p> */}
+    <p className='pt-2'>This is a non-comprehensive list of people that have expressed viewes and cretaed artefacts aligned with Critical Rationalism.</p>
     <PeopleTable/>
   </Layout>
 )
