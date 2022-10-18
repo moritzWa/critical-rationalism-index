@@ -44,7 +44,13 @@ export default function PeopleTable() {
                   scope="col"
                   className="sticky top-0 z-10 border-b border-gray-300 bg-gray-50 bg-opacity-75 py-3.5 pr-4 pl-3 backdrop-blur backdrop-filter sm:pr-6 lg:pr-8"
                 >
-                  <span className="sr-only">Web presence</span>
+                  <span className="sr-only">Website</span>
+                </th>
+                <th
+                  scope="col"
+                  className="sticky top-0 z-10 border-b border-gray-300 bg-gray-50 bg-opacity-75 py-3.5 pr-4 pl-3 backdrop-blur backdrop-filter sm:pr-6 lg:pr-8"
+                >
+                  <span className="sr-only">Twitter</span>
                 </th>
               </tr>
             </thead>
@@ -90,10 +96,22 @@ export default function PeopleTable() {
                       'relative whitespace-nowrap py-4 pr-4 pl-3 text-sm font-medium sm:pr-6 lg:pr-8'
                     )}
                   >
-                    <a href={person.href}  
+                    <a href={person.websiteURL}  
                        target="_blank" rel="noopener noreferrer"
-                       className="text-indigo-600 hover:text-indigo-900">
-                      Open Website<span className="sr-only">, {person.href}</span>
+                       className="text-indigo-600 hover:text-indigo-900 visited:text-indigo-400">
+                      Website<span className="sr-only">, {person.websiteURL}</span>
+                    </a>
+                  </td>
+                  <td
+                    className={clsx(
+                      pIndex !== PeopleArray.length - 1 ? 'border-b border-gray-200' : '',
+                      'relative whitespace-nowrap py-4 pr-4 pl-3 text-sm font-medium sm:pr-6 lg:pr-8'
+                    )}
+                  >
+                    <a href={person.twitterURL}  
+                       target="_blank" rel="noopener noreferrer"
+                       className="text-indigo-600 hover:text-indigo-900 visited:text-indigo-400">
+                      Twitter<span className="sr-only">, {person.twitterURL}</span>
                     </a>
                   </td>
                 </tr>

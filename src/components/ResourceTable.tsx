@@ -89,7 +89,7 @@ export default function ResourceTable() {
                   >
                     <a href={resource.href}  
                        target="_blank" rel="noopener noreferrer"
-                       className="text-indigo-600 hover:text-indigo-900">
+                       className="text-indigo-600 hover:text-indigo-900 visited:text-indigo-400">
                       Open<span className="sr-only">, {resource.href}</span>
                     </a>
                   </td>
