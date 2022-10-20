@@ -36,6 +36,7 @@ type PeopleTypes = {
     description: string,
     websiteURL?: string,
     twitterURL?: string,
+    died?: string,
 }
 
 export const People = {
@@ -48,12 +49,20 @@ export const People = {
     "Karl Popper": {
         name: 'Karl Popper',
         description: 'Karl Raimund Popper was an Austrian-British philosopher and professor. He is generally regarded as one of the 20th century\'s greatest philosophers of science.',
+        websiteURL: 'https://en.wikipedia.org/wiki/Karl_Popper',
+        died: '1994-09-17',
     } as PeopleTypes,
     "Brett Hall": {
         name: 'Brett Hall',
-        description: "doing ToKCast",
+        description: "Brett Hall is based in Australia and the creator of ToKCast, a podcast largely about the work of David Deutsch.",
         websiteURL: 'https://www.bretthall.org/',
         twitterURL: 'https://twitter.com/tokteacher/',
+    } as PeopleTypes,
+    "Peter Medawar": {
+        name: 'Peter Medawar',
+        description: 'Peter Brian Medawar FRS was a British immunologist and Nobel laureate. He was a professor at the University of Oxford and a Fellow of All Souls College, Oxford.',
+        websiteURL: 'https://en.wikipedia.org/wiki/Peter_Medawar',
+        died: '1987-11-02',
     } as PeopleTypes,
     "Naval Ravikant": {
         name: 'Naval Ravikant',
