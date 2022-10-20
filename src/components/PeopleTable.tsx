@@ -1,5 +1,5 @@
 import React from 'react'
-import { People } from '../resources/resources'
+import { People } from '../resources/data'
 
 export function clsx(...classes) {
   return classes.filter(Boolean).join(' ')
@@ -96,11 +96,14 @@ export default function PeopleTable() {
                       'relative whitespace-nowrap py-4 pr-4 pl-3 text-sm font-medium sm:pr-6 lg:pr-8'
                     )}
                   >
-                    <a href={person.websiteURL}  
-                       target="_blank" rel="noopener noreferrer"
-                       className="text-indigo-600 hover:text-indigo-900 visited:text-indigo-400">
+                    {person.websiteURL && (
+                      <a href={person.websiteURL}  
+                        target="_blank" rel="noopener noreferrer"
+                        className="text-indigo-600 hover:text-indigo-900 visited:text-indigo-400">
                       Website<span className="sr-only">, {person.websiteURL}</span>
-                    </a>
+                      </a>
+                    )  
+                    }
                   </td>
                   <td
                     className={clsx(

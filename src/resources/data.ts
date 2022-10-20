@@ -19,6 +19,14 @@ export const Resources: Resource[] = [
         href: 'https://en.wikipedia.org/wiki/The_Beginning_of_Infinity',
         type: ResourceType.book
     },
+    // The Logic of Scientific Discovery
+    {
+        name: 'The Logic of Scientific Discovery',
+        authors: ['Karl Popper'],
+        description: 'This is a book by a noted philosopher discussing the nature of scientific discovery.',
+        href: 'https://en.wikipedia.org/wiki/The_Logic_of_Scientific_Discovery',
+        type: ResourceType.book
+    }
 ]  
 
 // People
@@ -36,6 +44,10 @@ export const People = {
         description: 'David Elieser Deutsch FRS is a British physicist at the University of Oxford. He is a Visiting Professor in the Department of Atomic and Laser Physics at the Centre for Quantum Computation in the Clarendon Laboratory of the University of Oxford.',
         websiteURL: 'http://www.daviddeutsch.org.uk/h',
         twitterURL: 'https://twitter.com/DavidDeutschOxf',
+    } as PeopleTypes,
+    "Karl Popper": {
+        name: 'Karl Popper',
+        description: 'Karl Raimund Popper was an Austrian-British philosopher and professor. He is generally regarded as one of the 20th century\'s greatest philosophers of science.',
     } as PeopleTypes,
     "Brett Hall": {
         name: 'Brett Hall',
