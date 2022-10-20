@@ -7,7 +7,7 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="sticky top-0 flex flex-wrap items-center justify-between p-6 bg-gray-800">
+    <nav className="sticky top-0 z-10 flex flex-wrap items-center justify-between p-6 bg-gray-800">
       <div className="flex items-center flex-shrink-0 text-white">
         <span className="pr-4 text-xl font-semibold tracking-tight">
           {siteTitle}
