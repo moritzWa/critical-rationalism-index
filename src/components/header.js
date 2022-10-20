@@ -7,9 +7,9 @@ function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
 
   return (
-    <nav className="flex flex-wrap items-center justify-between p-6 mb-6 bg-gray-800">
-      <div className="flex items-center flex-shrink-0 mr-6 text-white">
-        <span className="text-xl font-semibold tracking-tight">
+    <nav className="sticky top-0 flex flex-wrap items-center justify-between p-6 bg-gray-800">
+      <div className="flex items-center flex-shrink-0 text-white">
+        <span className="pr-4 text-xl font-semibold tracking-tight">
           {siteTitle}
         </span>
       </div>
@@ -46,6 +46,12 @@ function Header({ siteTitle }) {
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             People
+          </Link>
+          <Link
+            to="https://criticalrationalism.substack.com/"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Newsletter
           </Link>
         </div>
           <a

@@ -35,7 +35,6 @@ const Layout = ({ children }) => {
         <footer
           style={{
             marginTop: `1rem`,
-            position: 'absolute',
             bottom: '1rem',
           }}
 
