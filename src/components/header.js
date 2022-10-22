@@ -9,9 +9,12 @@ function Header({ siteTitle }) {
   return (
     <nav className="sticky top-0 z-10 flex flex-wrap items-center justify-between p-6 bg-gray-800">
       <div className="flex items-center flex-shrink-0 text-white">
-        <span className="pr-4 text-xl font-semibold tracking-tight">
+        <Link
+          to={`/`}
+          className="pr-4 text-xl font-semibold tracking-tight text-white hover:text-indigo-100"
+        >
           {siteTitle}
-        </span>
+        </Link>
       </div>
       <div className="block lg:hidden">
         <button
@@ -35,8 +38,7 @@ function Header({ siteTitle }) {
       >
         <div className="text-sm lg:flex-grow">
           <Link
-            to={`/`}
-            href="#responsive-header"
+            to={`/Resources`}
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
             Resources

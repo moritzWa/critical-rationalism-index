@@ -28,7 +28,7 @@ const Layout = ({ children }) => {
       <div
         style={{
           margin: `0 auto`,
-          padding: `2rem`,
+          // padding: `2rem`,
         }}
       >
         <main>{children}</main>

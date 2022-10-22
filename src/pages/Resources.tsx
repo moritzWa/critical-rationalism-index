@@ -13,12 +13,14 @@ import ResourceTable from "../components/ResourceTable"
 const People = (props: PageProps) => (
   <Layout>
     <SEO title="Resources" />
-    <h1>Resources</h1>
-    <p className="pt-2">
-      This is a non-comprehensive list of Critical Rationalism related
-      resources.
-    </p>
-    <ResourceTable />
+    <div className="p-8">
+      <h1>Resources</h1>
+      <p className="pt-2">
+        This is a non-comprehensive list of Critical Rationalism related
+        resources.
+      </p>
+      <ResourceTable />
+    </div>
   </Layout>
 )
 
