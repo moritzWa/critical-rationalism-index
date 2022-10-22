@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React, { useState } from "react"
-import Button from './button'
+import Button from "./button"
 
 function Header({ siteTitle }) {
   const [isExpanded, toggleExpansion] = useState(false)
@@ -54,7 +54,7 @@ function Header({ siteTitle }) {
             Newsletter
           </Link>
         </div>
-          {/* <a
+        {/* <a
             // href="https://github.com/moritzWa/critical-rationalism-index"
             target="_blank"
             rel="noreferrer"
@@ -64,16 +64,14 @@ function Header({ siteTitle }) {
               Newsletter
           </Button>
           </a> */}
-          <a
-            href="https://github.com/moritzWa/critical-rationalism-index"
-            target="_blank"
-            rel="noreferrer"
-          >
-          <Button>
-              Contribute
-          </Button>
-          </a>
-        </div>
+        <a
+          href="https://github.com/moritzWa/critical-rationalism-index"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Button>Contribute</Button>
+        </a>
+      </div>
     </nav>
   )
 }

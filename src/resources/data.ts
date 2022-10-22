@@ -20,7 +20,6 @@ export const Resources: Resource[] = [
     href: "https://en.wikipedia.org/wiki/The_Beginning_of_Infinity",
     type: ResourceType.book,
   },
-  // The Logic of Scientific Discovery
   {
     name: "The Logic of Scientific Discovery",
     authors: ["Karl Popper"],

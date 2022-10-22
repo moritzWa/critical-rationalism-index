@@ -35,13 +35,13 @@ const Layout = ({ children }) => {
         <footer
           style={{
             marginTop: `1rem`,
-            bottom: '1rem',
+            bottom: "1rem",
           }}
-
->
+        >
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a> by <a href='https://twitter.com/MoritzW42/'>Moritz</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a> by{" "}
+          <a href="https://twitter.com/MoritzW42/">Moritz</a>
         </footer>
       </div>
     </>
