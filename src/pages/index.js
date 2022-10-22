@@ -4,15 +4,10 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ResourceTable from '../components/ResourceTable'
-
-// TODO: add filter logic: 
-// pressing pill button should filter for books articles podcasts etc.
-// and pass this state down to the table component  
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />    
+    <SEO title="Home" />
     {/* <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <StaticImage
         src="../images/gatsby-astronaut.png"
@@ -20,8 +15,7 @@ const IndexPage = () => (
       />
     </div> */}
     {/* <p><Link to="/page-2/">Go to page 2</Link></p> */}
-    <h1>Resources</h1>
-    <ResourceTable/>
+    <HeroSection />
   </Layout>
 )
 
