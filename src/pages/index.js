@@ -3,6 +3,7 @@ import React from "react"
 // import { StaticImage } from "gatsby-plugin-image"
 import Layout from "../components/layout"
 import HeroSection from "../components/HeroSection"
+import Concepts from "../components/Concepts"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
