@@ -1,14 +1,4 @@
-import React, { Fragment } from "react"
-
-import { Popover, Transition } from "@headlessui/react"
-import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline"
-
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
-]
+import React from "react"
 
 export default function HeroSection() {
   return (
