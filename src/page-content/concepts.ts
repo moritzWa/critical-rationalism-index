@@ -10,6 +10,8 @@ type Concept = {
   url?: string
 }
 
+// https://docs.google.com/drawings/d/1Ub_IInn_iBWleQ9iwCGkRAMK3iHTjuhTHm_6422dhds/edit?usp=sharing
+
 export const ConceptSections: ConceptSection[] = [
   {
     name: "Epistemology and Science",
@@ -17,7 +19,7 @@ export const ConceptSections: ConceptSection[] = [
       "At its core Critical Rationalism is a theory about knowledge creation and error corretion.",
     conceptAreas: [
       {
-        name: "The growth of human knowledge",
+        name: "How dos human knowledge grow?",
         description:
           "How does human knowledge grow?, How do we know what we know?",
       },
@@ -33,7 +35,14 @@ export const ConceptSections: ConceptSection[] = [
       "Progress is enabled through error correction; the removal of bad, options, leaders and rules. Critical Rationalism is highly aligned with Libertarianism",
     conceptAreas: [
       {
-        name: "The problem of political authority",
+        name: "How do we make the best decisions?",
+        description:
+          "Decision Making without justificationsm is choosing the option accociated with our best explanation.",
+      },
+      {
+        name: "How can we live together without coercion?",
+        description:
+          "The problem of political authority is the problem of how to justify the authority of the state.",
       },
       {
         name: "The Open Society and Its Enemies",
