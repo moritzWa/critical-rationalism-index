@@ -1,5 +1,5 @@
 import React from "react"
-import { People } from "../resources/data"
+import { People } from "../page-content/data"
 
 export function clsx(...classes) {
   return classes.filter(Boolean).join(" ")

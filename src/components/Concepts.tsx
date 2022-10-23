@@ -18,6 +18,20 @@ const ConceptSections = [
     ],
   },
   {
+    name: "Politics and Decision Making",
+    description:
+      "Progress is enabled through error correction; the removal of bad, options, leaders and rules. Critical Rationalism is highly aligned with Libertarianism",
+    conceptAreas: [
+      {
+        name: "The problem of political authority",
+      },
+      {
+        name: "The Open Society and Its Enemies",
+        url: "https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies",
+      },
+    ],
+  },
+  {
     name: "Taking Children Seriously",
     description:
       "Taking Children Seriously is a parenting movement and educational philosophy whose central idea is that it is possible and desirable to raise and educate children without either doing anything to them against their will or making them do anything against their will.",
@@ -35,20 +49,6 @@ const ConceptSections = [
       },
       {
         name: "What matters is the presence of a mind, not the size of the person.",
-      },
-    ],
-  },
-  {
-    name: "Politics and Decision Making",
-    description:
-      "Progress is enabled through error correction; the removal of bad, options, leaders and rules. Critical Rationalism is highly aligned with Libertarianism",
-    conceptAreas: [
-      {
-        name: "The problem of political authority",
-      },
-      {
-        name: "The Open Society and Its Enemies",
-        url: "https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies",
       },
     ],
   },
