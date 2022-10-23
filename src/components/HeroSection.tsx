@@ -97,12 +97,12 @@ export default function HeroSection() {
                   href="https://www.youtube.com/watch?v=folTvNDL08A&t=649s"
                   className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:px-10"
                 >
-                  What Introduction
+                  Introduction Video
                 </a>
               </div>
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
-                  href=""
+                  href="#concepts"
                   className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md hover:bg-gray-50 md:py-4 md:px-10"
                 >
                   Explore Concepts

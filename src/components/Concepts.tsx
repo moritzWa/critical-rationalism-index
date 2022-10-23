@@ -40,7 +40,7 @@ const Concepts = () => {
         <h2 className="text-5xl font-bold tracking-tight text-gray-900">
           Concepts
         </h2>
-        <p className="mt-6 text-xl">
+        <p id="concepts" className="mt-6 text-xl">
           Note, this is currently still in development and consists mostly of
           placeholders
         </p>
