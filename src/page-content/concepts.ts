@@ -16,12 +16,12 @@ export const ConceptSections: ConceptSection[] = [
   {
     name: "Epistemology and Science",
     description:
-      "At its core Critical Rationalism is a theory about knowledge creation and error corretion.",
+      "At its core, Critical Rationalism is a theory about knowledge creation and error correction.",
     conceptAreas: [
       {
-        name: "How dos human knowledge grow?",
+        name: "How does human knowledge grow?",
         description:
-          "How does human knowledge grow?, How do we know what we know?",
+          "How does human knowledge grow? How do we know what we know?",
       },
       {
         name: "The science of science",
@@ -32,12 +32,12 @@ export const ConceptSections: ConceptSection[] = [
   {
     name: "Politics and Decision Making",
     description:
-      "Progress is enabled through error correction; the removal of bad, options, leaders and rules. Critical Rationalism is highly aligned with Libertarianism",
+      "Political progress happens via the removal of bad, options, leaders and rules. Critical Rationalism is highly aligned with Libertarianism",
     conceptAreas: [
       {
         name: "How do we make the best decisions?",
         description:
-          "Decision Making without justificationsm is choosing the option accociated with our best explanation.",
+          "Decision Making without justificationsm is choosing the option associated with our best explanation.",
       },
       {
         name: "How can we live together without coercion?",
@@ -47,6 +47,20 @@ export const ConceptSections: ConceptSection[] = [
       {
         name: "The Open Society and Its Enemies",
         url: "https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies",
+      },
+    ],
+  },
+  {
+    name: "Progress and Innovation",
+    description: "About technological, moral, and political progress",
+    conceptAreas: [
+      {
+        name: "Innovation and Inspiration.",
+      },
+      {
+        name: "Formalizing progress",
+        description:
+          "David Deutsch writes about two deep principles. The principle of Optimism says that All evils are caused by insufficient knowledge. The momentous dichotomy says that 'Either a given technology is possible, or else there must be some reason (say, of physics or logic) why it isn’t possible.'",
       },
     ],
   },
@@ -70,7 +84,7 @@ export const ConceptSections: ConceptSection[] = [
         name: "What matters is the presence of a mind, not the size of the person.",
       },
       {
-        name: "The opression and lack of rights of children.",
+        name: "The oppression and lack of rights of children.",
       },
     ],
   },

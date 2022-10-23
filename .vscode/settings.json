@@ -1,0 +1,14 @@
+{
+  "grammarly.selectors": [
+    {
+      "language": "typescript",
+      "scheme": "file",
+      "pattern": "src/page-content/concepts.ts"
+    },
+    {
+      "language": "typescript",
+      "scheme": "file",
+      "pattern": "src/page-content/data.ts"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 // Resources
 type Resource = {
   name: string
-  authors: [keyof typeof People]
+  authors: (keyof typeof People)[]
   description: string
   href: string
   type: ResourceType
@@ -120,7 +120,7 @@ export const People = {
   "Lulie Tannett": {
     name: "Lulie Tannett",
     description:
-      "Lulie Tanett is a writer from Oxford, England, specialising in applied critical rationalism. She writes about all things epistemology — from education and memetics, to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
+      "Lulie Tanett is a writer from Oxford, England, specializing in applied critical rationalism. She writes about all things epistemology — from education and memetics to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
     websiteURL: "https://reasonisfun.com/",
   } as PeopleTypes,
   "Christofer Lövgren": {
@@ -138,7 +138,7 @@ export const People = {
   "Vaden Masrani": {
     name: "Vaden Masrani",
     description:
-      "Vaden is a Ph.D student at the University of British Columbia where he focuses on machine learning, probabilistic programming, bayesian inference and other topics. He's also the co-host of the Increments podcast.",
+      "Vaden is a Ph.D. student at the University of British Columbia where he focuses on machine learning, probabilistic programming, bayesian inference and other topics. He's also the co-host of the Increments podcast.",
     websiteURL: "https://vmasrani.github.io/",
     twitterURL: "https://twitter.com/VadenMasrani",
   } as PeopleTypes,
