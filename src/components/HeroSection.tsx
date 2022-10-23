@@ -92,14 +92,14 @@ export default function HeroSection() {
               knowledge is and how it grows.
             </p>
             <div className="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
-              <div className="rounded-md shadow">
+              {/* <div className="rounded-md shadow">
                 <a
                   href="https://www.youtube.com/watch?v=folTvNDL08A&t=649s"
                   className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:px-10"
                 >
                   Introduction Video
                 </a>
-              </div>
+              </div> */}
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
                   href="#concepts"
@@ -108,6 +108,12 @@ export default function HeroSection() {
                   Explore Concepts
                 </a>
               </div>
+            </div>
+            <div className="flex justify-center">
+              <iframe
+                className="pt-8 rounded w-full max-w-xl max-h-96 aspect-video ..."
+                src="https://www.youtube.com/embed/folTvNDL08A"
+              ></iframe>
             </div>
           </div>
         </main>

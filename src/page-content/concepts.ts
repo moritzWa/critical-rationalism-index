@@ -13,7 +13,8 @@ type Concept = {
 export const ConceptSections: ConceptSection[] = [
   {
     name: "Epistemology and Science",
-    description: "small text about the conecpt",
+    description:
+      "At its core Critical Rationalism is a theory about knowledge creation and error corretion.",
     conceptAreas: [
       {
         name: "The growth of human knowledge",
@@ -58,6 +59,9 @@ export const ConceptSections: ConceptSection[] = [
       },
       {
         name: "What matters is the presence of a mind, not the size of the person.",
+      },
+      {
+        name: "The opression and lack of rights of children.",
       },
     ],
   },
