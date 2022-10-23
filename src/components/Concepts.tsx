@@ -67,8 +67,6 @@ const ConceptSections = [
   },
 ]
 
-const politicsConcepts = []
-
 const Concepts = () => {
   return (
     <div>
@@ -77,8 +75,8 @@ const Concepts = () => {
           Concepts
         </h2>
         <p id="concepts" className="mt-6 text-xl">
-          Note, this is currently still in development and consists mostly of
-          placeholders
+          As a fundamental theory of knowledge, Critical Rationalism spans areas
+          such as epistemology, science, politics, decision making, and more.
         </p>
       </div>
       <div>

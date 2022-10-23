@@ -66,13 +66,15 @@ function Header({ siteTitle }) {
               Newsletter
           </Button>
           </a> */}
-        <a
-          href="https://github.com/moritzWa/critical-rationalism-index"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <Button>Contribute</Button>
-        </a>
+        <div className={isExpanded && "mt-4"}>
+          <a
+            href="https://github.com/moritzWa/critical-rationalism-index"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button>Contribute</Button>
+          </a>
+        </div>
       </div>
     </nav>
   )
