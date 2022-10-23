@@ -89,6 +89,19 @@ export const ConceptSections: ConceptSection[] = [
     ],
   },
   {
+    name: "Art and Psychology",
+    description:
+      "We're still at the beginning of unifying existing concepts of psychology with Critical Rationalism.",
+    conceptAreas: [
+      {
+        name: "Aesthetic",
+      },
+      {
+        name: "Fun Criterion",
+      },
+    ],
+  },
+  {
     name: "Memes",
     description:
       "Memes are ideas that spread from person to person, and from culture to culture.",
