@@ -55,6 +55,12 @@ function Header({ siteTitle }) {
           >
             Newsletter
           </Link>
+          <Link
+            to="https://www.eventbrite.com/e/the-rat-fest-tickets-387125692367?foo=bar"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+          >
+            Conference (Jun 29, 2023)
+          </Link>
         </div>
         {/* <a
             // href="https://github.com/moritzWa/critical-rationalism-index"
