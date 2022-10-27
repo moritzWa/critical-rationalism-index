@@ -111,7 +111,7 @@ export default function HeroSection() {
             </div>
             <div className="flex justify-center">
               <iframe
-                className="pt-8 rounded w-full max-w-xl max-h-96 aspect-video ..."
+                className="pt-8 rounded w-full md:w-[900px] md:h-[700px] max-h-96 max-w-xl aspect-video ..."
                 src="https://www.youtube.com/embed/folTvNDL08A"
               ></iframe>
             </div>
