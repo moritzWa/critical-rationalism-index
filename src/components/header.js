@@ -47,7 +47,7 @@ function Header({ siteTitle }) {
             to={`/People`}
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
           >
-            People
+            People to follow
           </Link>
           <Link
             to="https://criticalrationalism.substack.com/"

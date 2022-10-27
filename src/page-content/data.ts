@@ -93,7 +93,7 @@ export const People = {
   "Logan Chipkin": {
     name: "Logan Chipkin",
     description:
-      "Logan Chipkin is a writer in Philadelphia. His previous publications can be found on his website. He is also working on a fiction novel, chapters of which can be found on his Substack.",
+      "Logan Chipkin is a writer based in Philadelphia. His previous publications can be found on his website. He is also working on a fiction novel, chapters of which can be found on his Substack.",
     websiteURL: "http://www.loganchipkin.com/",
   } as PeopleTypes,
   "Dennis Hackethal": {

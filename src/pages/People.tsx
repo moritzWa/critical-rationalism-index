@@ -9,7 +9,7 @@ const People = (props: PageProps) => (
   <Layout>
     <SEO title="People" />
     <div className="p-8">
-      <h1>People</h1>
+      <h1>People to follow</h1>
       <p className="pt-2">
         This is a non-comprehensive list of people that have expressed viewes
         and cretaed artefacts aligned with Critical Rationalism.
