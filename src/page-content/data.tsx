@@ -2,13 +2,15 @@
 type Resource = {
   name: string
   authors: (keyof typeof People)[]
-  description: string
+  description: string | React.ReactNode
   href: string
   type: ResourceType
+  conceptTags?: any
 }
 
 enum ResourceType {
   book = "book",
+  video = "video",
 }
 
 export const Resources: Resource[] = [
@@ -19,6 +21,7 @@ export const Resources: Resource[] = [
       "This is a book by a noted quantum physicist discussing epistemology, the nature of reality, and human progress.",
     href: "https://en.wikipedia.org/wiki/The_Beginning_of_Infinity",
     type: ResourceType.book,
+    conceptTags: ["Epistemology and Science"],
   },
   {
     name: "The Logic of Scientific Discovery",
@@ -35,6 +38,14 @@ export const Resources: Resource[] = [
       "This is a book by a noted biologist discussing the nature of scientific discovery.",
     href: "https://en.wikipedia.org/wiki/Failure:_Why_Science_Is_So_Successful",
     type: ResourceType.book,
+  },
+  {
+    name: "RSA Replay: Optimism, Knowledge and the Future of Enlightenment",
+    authors: ["David Deutsch"],
+    href: "https://www.youtube.com/watch?v=ncJQTYc27ME&t=0s",
+    type: ResourceType.video,
+    description:
+      "Physicist David Deutsch and cosmologist Martin Rees lead a special event exploring the theme of optimism as a force for 21st century progress.",
   },
 ]
 
