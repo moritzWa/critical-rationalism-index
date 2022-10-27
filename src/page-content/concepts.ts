@@ -1,12 +1,12 @@
 type ConceptSection = {
   name: string
-  description: string
+  description: string | JSX.Element
   conceptAreas: Concept[]
 }
 
 type Concept = {
   name: string
-  description?: string
+  description?: string | JSX.Element
   url?: string
 }
 
