@@ -166,4 +166,35 @@ export const ConceptSections: ConceptSection[] = [
       },
     ],
   },
+  {
+    name: "Computer Science and AI",
+    description: (
+      <>
+
+      </>)
+    ,
+    conceptAreas: [
+      {
+        name: "What are arbstractions? Do they exist in reality?"
+      },
+      {
+        name: "What are the limitations of the turing test?",
+        description: (
+          <>
+            David Deutsch expanded on this and other criticisms of the current AGI research in <a href='http://www.daviddeutsch.org.uk/wp-content/uploads/2019/07/PossibleMinds_Deutsch.pdf'>Possible Minds</a> (edited by John Brockman) and in his article <a href='https://aeon.co/essays/how-close-are-we-to-creating-artificial-intelligence'>Creative blocks</a> published on Aeon.
+          </>
+        ),
+      },
+      {
+        name: "How can we formalize the evolution of knowledge by conjecture and criticism?",
+        description: (
+          <>
+            The AGI researcher Ella Hoeppner has proposed something that she calls <a href='https://www.ellahoeppner.com/ctp-theory-a-critical-rationalist-approach-to-agi/'>Claim-Theory-Problem Theory (CTP Theory)</a>.
+          </>
+        )
+      }
+    
+
+
+  },
 ]
