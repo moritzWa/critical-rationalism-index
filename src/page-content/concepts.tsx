@@ -164,6 +164,9 @@ export const ConceptSections: ConceptSection[] = [
       {
         name: "How do memes create Static and Dynamic Societies?",
       },
+      {
+        name: "New Edit bla bla",
+      },
     ],
   },
   {
