@@ -57,7 +57,6 @@ export default function PeopleTable() {
                   </th>
                 </tr>
               </thead>
-              {console.log(PeopleArray)}
               <tbody className="bg-white">
                 {PeopleArray.map((person, pIndex) => (
                   <tr key={person.name}>

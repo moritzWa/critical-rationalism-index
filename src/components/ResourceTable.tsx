@@ -41,12 +41,6 @@ export default function ResourceTable() {
                   >
                     Link
                   </th>
-                  <th
-                    scope="col"
-                    className="sticky top-0 z-10 border-b border-gray-300 bg-gray-50 bg-opacity-75 py-3.5 pr-4 pl-3 backdrop-blur backdrop-filter sm:pr-6 lg:pr-8"
-                  >
-                    <span className="sr-only">Edit</span>
-                  </th>
                 </tr>
               </thead>
               <tbody className="bg-white">
@@ -77,19 +71,11 @@ export default function ResourceTable() {
                         rIndex !== Resources.length - 1
                           ? "border-b border-gray-200"
                           : "",
-                        "min-w-1/4 whitespace-pre-wrap px-3 py-4 text-sm text-gray-500 hidden lg:table-cell"
+                        "whitespace-pre-wrap px-3 py-4 text-sm text-gray-500 hidden lg:table-cell"
                       )}
                     >
                       {resource.description}
                     </td>
-                    {/* <td
-                    className={clsx(
-                      personIdx !== people.length - 1 ? 'border-b border-gray-200' : '',
-                      'whitespace-nowrap px-3 py-4 text-sm text-gray-500'
-                    )}
-                  >
-                    {person.href}
-                  </td> */}
                     <td
                       className={clsx(
                         rIndex !== Resources.length - 1
