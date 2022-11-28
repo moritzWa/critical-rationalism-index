@@ -12,7 +12,9 @@ type Concept = {
   url?: string
 }
 
-// https://docs.google.com/drawings/d/1Ub_IInn_iBWleQ9iwCGkRAMK3iHTjuhTHm_6422dhds/edit?usp=sharing
+// inspiration for concept map: https://docs.google.com/drawings/d/1Ub_IInn_iBWleQ9iwCGkRAMK3iHTjuhTHm_6422dhds/edit?usp=sharing
+
+// Please keep every section as short as possible. The purpose of this is to create curiosity and not to explain.
 
 export const ConceptSections: ConceptSection[] = [
   {
