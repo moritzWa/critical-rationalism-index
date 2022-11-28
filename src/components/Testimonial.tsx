@@ -3,7 +3,7 @@ import React from "react"
 export default function Testimonial() {
   return (
     <section className="overflow-hidden bg-white">
-      <div className="relative px-4 pt-20 pb-12 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-20">
+      <div className="relative px-3 py-5 mx-auto max-w-7xl sm:px-6 lg:px-8 lg:py-20">
         <svg
           className="absolute left-0 transform -translate-y-24 top-full translate-x-80 lg:hidden"
           width={784}
@@ -95,7 +95,7 @@ export default function Testimonial() {
               />
             </svg>
             <blockquote className="relative">
-              <div className="text-2xl font-medium leading-9 text-gray-900">
+              <div className="text-xl font-medium leading-9 text-gray-900">
                 <p>
                   I realized [The Beginning of Infinity a seminal books
                   expanding on Critical Rationalism] is the best book that I
@@ -111,7 +111,7 @@ export default function Testimonial() {
                   <div className="flex-shrink-0 lg:hidden">
                     <img
                       className="w-12 h-12 rounded-full"
-                      src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+                      src="https://i.imgur.com/HR2HjRM.png"
                       alt=""
                     />
                   </div>

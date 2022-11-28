@@ -12,6 +12,8 @@ enum ResourceType {
   book = "book",
   video = "video",
   paper = "paper",
+  article = "article",
+  podcast = "podcast",
 }
 
 export const Resources: Resource[] = [
@@ -84,6 +86,35 @@ export const Resources: Resource[] = [
       "Ray Scott Percival sets out to demolish the whole notion of the closed mind and of human irrationality",
     href: "https://www.goodreads.com/en/book/show/13235385",
     type: ResourceType.book,
+  },
+  {
+    name: "David Deutsch Eats Rationalism",
+    authors: ["Cam Peters"],
+    href: "https://falliblepieces.substack.com/p/david-deutsch-eats-rationalism",
+    type: ResourceType.article,
+    description: "Differences of basian rationality and critical rationalism.",
+  },
+  {
+    href: "https://nav.al/infinity",
+    name: "The Beginning of Infinity, Part 1",
+    authors: ["Naval Ravikant"],
+    type: ResourceType.podcast,
+    description: "Conversation between Naval Ravikant and Brett Hall.",
+  },
+  {
+    href: "https://www.youtube.com/watch?v=OJHeJmperPw",
+    name: "Moral problems: a Popperian approach",
+    authors: ["Oliver Scott Curry"],
+    type: ResourceType.video,
+    description:
+      "What is morality? And how ought you behave? These questions, until recently exclusively philosophical, are now becoming scientific.",
+  },
+  {
+    name: "Aaron Stupple's Twitter List of Critical Rationalists",
+    authors: ["Aaron Stupple"],
+    href: "https://twitter.com/i/lists/1117954597329543174",
+    type: ResourceType.article,
+    description: "A list of critical rationalists on Twitter",
   },
 ]
 
@@ -215,6 +246,21 @@ export const People = {
     name: "Ray Scott Percival",
     description:
       "Ray Scott Percival holds a Ph.D. from the London School of Economics and founded and edited The Karl Popper Web.",
+    websiteURL: "https://www.youtube.com/c/rayscottpercival",
+    twitterURL: "https://twitter.com/ray_s_percival",
+  } as PeopleTypes,
+  "Cam Peters": {
+    name: "Cam Peters", // likley Cameron Peters
+    description: "Writes falliblepieces.substack.com.",
+    twitterURL: "https://twitter.com/campeters4",
+    websiteURL: "https://falliblepieces.substack.com/",
+  } as PeopleTypes,
+  "Oliver Scott Curry": {
+    name: "Oliver Scott Curry",
+    description:
+      "Research Director at kindness.org, Affiliate at Oxford Anthropology, Associate at LSE Philosophy",
+    websiteURL: "https://oliverscottcurry.com/",
+    twitterURL: "https://twitter.com/oliverscottcurry",
   } as PeopleTypes,
 }
 
