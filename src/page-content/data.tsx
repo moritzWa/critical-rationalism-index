@@ -114,7 +114,15 @@ export const Resources: Resource[] = [
     authors: ["Aaron Stupple"],
     href: "https://twitter.com/i/lists/1117954597329543174",
     type: ResourceType.article,
-    description: "A list of critical rationalists on Twitter",
+    description: "A list of critical rationalists on Twitter by Aaron Stupple",
+  },
+  {
+    name: "Bart Vanderhaegen's Four Strands Twitter list",
+    authors: ["Bart Vanderhaegen"],
+    href: "https://twitter.com/i/lists/1246825768644206592",
+    type: ResourceType.article,
+    description:
+      "A list of critical rationalists and related profiles on Twitter by Bart Vanderhaegen",
   },
 ]
 
@@ -261,6 +269,13 @@ export const People = {
       "Research Director at kindness.org, Affiliate at Oxford Anthropology, Associate at LSE Philosophy",
     websiteURL: "https://oliverscottcurry.com/",
     twitterURL: "https://twitter.com/oliverscottcurry",
+  } as PeopleTypes,
+  "Bart Vanderhaegen": {
+    name: "Bart Vanderhaegen",
+    description:
+      "Bart Vanderhaegen runs Fallible management a podcast and consultancy on how to accelerate knowledge growth in organisations.",
+    websiteURL: "www.anchor.fm/falliblemanagement",
+    twitterURL: "https://twitter.com/B_Vanderhaegen",
   } as PeopleTypes,
 }
 
