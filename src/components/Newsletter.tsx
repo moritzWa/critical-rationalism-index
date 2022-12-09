@@ -21,7 +21,7 @@ const useWindowWidth = () => {
 function Newsletter() {
   const width = useWindowWidth()
 
-  const newsLetterPartWidth = width > 768 ? width : "780"
+  const newsLetterPartWidth = width > 768 ? "780" : width
   console.log(width, newsLetterPartWidth)
 
   return (
