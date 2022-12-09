@@ -195,4 +195,36 @@ export const ConceptSections: ConceptSection[] = [
       },
     ],
   },
+  {
+    name: "Beauty",
+    description: (
+      <>
+        Just as there is objective truth in science - theories can be true
+        regardless of what people think of them - beauty is{" "}
+        <a href="https://www.youtube.com/watch?v=gT7DFCF1Fn8&ab_channel=DavidDeutsch">
+          similarly objective
+        </a>
+        .
+      </>
+    ),
+    conceptAreas: [
+      {
+        name: "Isn’t beauty in the eye of the beholder?",
+        description: (
+          <>
+            Beauty is not subjective and arbitrary. It is{" "}
+            <a href="https://www.nature.com/articles/526S16a">objective</a>. An
+            artist does not move randomly through successive drafts until a
+            final version is selected. Instead, there is progress, meaning that
+            later drafts are nearer to beauty than earlier ones.
+          </>
+        ),
+      },
+      {
+        name: "Is the scientific method similar to the artistic method?",
+        description:
+          "Beethoven used the same creative process as Einstein. Artists make a series of trials and discard those deemed to be in error, in the same way that a scientist suggests theories and discards those that fail to survive crucial tests and other criticisms.",
+      },
+    ],
+  },
 ]
