@@ -83,7 +83,7 @@ export default function Testimonial() {
 
           <div className="relative lg:ml-10">
             <svg
-              className="absolute top-0 left-0 text-indigo-200 transform -translate-x-8 -translate-y-24 opacity-50 h-36 w-36"
+              className="absolute left-0 text-indigo-200 transform -translate-x-8 -translate-y-24 opacity-50 top-5 h-36 w-36"
               stroke="currentColor"
               fill="none"
               viewBox="0 0 144 144"
