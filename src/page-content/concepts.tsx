@@ -115,6 +115,84 @@ export const ConceptSections: ConceptSection[] = [
           </>
         ),
       },
+      {
+        name: "What about the threat of an AGI apocalypse?.",
+        description: (
+          <>
+            To be a general intelligence, an{" "}
+            <a href="https://youtu.be/2ccJsXG4b5Y">AGI</a> must have reasons for
+            its actions. It is also capable of considering alternatives and
+            doubting itself. It is therefore precisely as capable of destroying
+            mankind as the contemporary, carbon-based enemies of civilization
+            are.
+          </>
+        ),
+      },
+      {
+        name: (
+          <>
+            What about the limits of{" "}
+            <a href="https://medium.com/conjecture-magazine/the-laws-of-physics-must-be-comprehensible-171ba06e73f0">
+              human understanding
+            </a>
+            ?
+          </>
+        ),
+        description: (
+          <>
+            Since human minds are Turing Complete, they can perform any
+            calculable calculation, assuming they can appropriately augment
+            their memory and processing speed with assist technologies.
+          </>
+        ),
+      },
+    ],
+  },
+  {
+    name: "Children",
+    description:
+      "If there are no authorities, then everyone is fallible, including adults in conflict with children. The only rational option is to take the child’s point of view seriously in problem-solving.",
+    conceptAreas: [
+      {
+        name: (
+          <>
+            Is child liberation the{" "}
+            <a href="https://www.youtube.com/watch?v=nSb7myd6J90&ab_channel=OxfordKarlPopperSociety">
+              next great phase
+            </a>{" "}
+            of human liberation?
+          </>
+        ),
+        description:
+          "Children are are the broadest subset of people that society systematically denies basic rights like bodily autonomy and private property.",
+      },
+      {
+        name: (
+          <>
+            Is school a{" "}
+            <a href="https://www.takingchildrenseriously.com/are-schools-inherently-coercive/">
+              violation of human rights
+            </a>
+            ?
+          </>
+        ),
+        description:
+          "Forcing people against their will to sit idly in front of a purportedly authoritative source is institutionalized, coercive indoctrination.",
+      },
+      {
+        name: "Does this mean we should let kids do what they want?",
+        description: (
+          <>
+            Conflicts between any two options can be always be resolved by
+            discovering a third option that is preferable to all parties. There
+            is always a{" "}
+            <a href="https://www.takingchildrenseriously.com/a-commitment-to-figuring-it-out/">
+              win-win solution
+            </a>
+            .
+          </>
+        ),
+      },
     ],
   },
 ]
