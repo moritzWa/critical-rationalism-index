@@ -1,8 +1,8 @@
 import React from "react"
 
 type props = {
-  name: string
-  description: string
+  name: string | React.ReactNode
+  description: string | React.ReactNode
   conceptAreas: Array<{ name: string; url?: string }>
 }
 

@@ -7,7 +7,7 @@ type ConceptSection = {
 }
 
 type Concept = {
-  name: string
+  name: string | React.ReactNode
   description?: string | React.ReactNode
   url?: string
 }
@@ -18,190 +18,100 @@ type Concept = {
 
 export const ConceptSections: ConceptSection[] = [
   {
-    name: "Epistemology and Science",
+    name: "What is critical rationalism?",
     description:
-      "At its core, Critical Rationalism is a theory about knowledge creation and error correction.",
+      "A theory of knowledge developed by Karl Popper that is both enormously powerful and tragically underappreciated. Of all of the possible ways in which the world may be transformed, the overwhelming majority of them require the presence of knowledge to be rendered.",
     conceptAreas: [
       {
-        name: "How does human knowledge grow?",
-        description:
-          "How does human knowledge grow? How do we know what we know?",
+        name: "Is knowledge ever justified by an authority?",
+        description: (
+          <>
+            When someone claims a fact is true, one can always ask for a reason.
+            At some point, an{" "}
+            <a href="https://atmos.washington.edu/academics/classes/2003Q4/211/articles_required/Popper60_knowledge.pdf">
+              authority
+            </a>{" "}
+            may block discussion by arbitrarily declaring the question settled.
+            The opposite of authority is fallibility.
+          </>
+        ),
       },
       {
-        name: "The science of science",
-        description: "How does science work?",
+        name: (
+          <>
+            Can’t we say that something is{" "}
+            <a href="https://www.daviddeutsch.org.uk/2014/08/simple-refutation-of-the-bayesian-philosophy-of-science/">
+              probably justified
+            </a>{" "}
+            when there is sufficient evidence?
+          </>
+        ),
+        description:
+          "What counts as evidence can only be understood in terms of theories - evidence is never ‘theory-free’. Evidence is a criticism of theories, not a justification for accepting them as true.",
+      },
+      {
+        name: (
+          <>
+            How do we{" "}
+            <a href="https://www.ted.com/talks/david_deutsch_chemical_scum_that_dream_of_distant_quasars?language=en">
+              make progress
+            </a>{" "}
+            ?
+          </>
+        ),
+        description:
+          "Progress comes from solving problems. Problems are inevitable, but also solvable. In all domains of human pursuit, we make guesses on how to solve our problems and expose these guesses to criticism.",
       },
     ],
   },
   {
-    name: "Politics and Decision Making",
+    name: "Politics",
+    description:
+      "Critical rationalism applies Popper’s theory of knowledge to selecting leaders and policies.",
+    conceptAreas: [
+      {
+        name: (
+          <>
+            Isn’t the purpose of{" "}
+            <a href="https://www.economist.com/democracy-in-america/2016/01/31/from-the-archives-the-open-society-and-its-enemies-revisited">
+              holding elections
+            </a>{" "}
+            to determine the will of the people?
+          </>
+        ),
+        description:
+          "Even if everyone agreed on a leader and his policies, both will necessarily be riddled with errors. This is the essence of Popper’s fallibilism. Therefore, to make progress in politics, a peaceful process of replacing leaders and policies is vastly superior to anti-democratic alternatives.",
+      },
+      {
+        name: "What about seeking compromise to avoid extreme views?",
+        description:
+          "There’s no reason to expect that mixing a good policy and a bad policy will yield a good policy, just like mixing two competing scientific theories will likely yield only confusion.",
+      },
+    ],
+  },
+  {
+    name: "AGI and computer science",
     description: (
       <>
-        Political progress happens via the removal of bad, options, leaders and
-        rules. Critical Rationalism is highly aligned with{" "}
-        <a href="https://plato.stanford.edu/entries/libertarianism/">
-          Libertarianism
-        </a>
-        .
+        A philosophy of knowledge has deep implications for how knowledge could
+        be created by a computer.
       </>
     ),
     conceptAreas: [
       {
-        name: "How do we make the best decisions?",
-        description:
-          "Decision Making without justificationsm is choosing the option associated with our best explanation.",
-      },
-      {
-        name: "How can we live together without coercion?",
-        description:
-          "The problem of political authority is the problem of how to justify the authority of the state.",
-      },
-      {
-        name: "What is an open society and what are its enemies?",
+        name: "Haven’t recent advances in machine learning made progress toward artificial general intelligence?",
         description: (
           <>
-            In his book{" "}
-            <a href="https://en.wikipedia.org/wiki/The_Open_Society_and_Its_Enemies">
-              The Open Society and Its Enemies
-            </a>
-            , Karl Popper argued that the
-          </>
-        ),
-      },
-    ],
-  },
-  {
-    name: "Progress and Innovation",
-    description: "About technological, moral, and political progress",
-    conceptAreas: [
-      {
-        name: "How does innovation lead to more Inspiration?",
-      },
-      {
-        name: "How can we Formalize progress?",
-        description: (
-          <>
-            David Deutsch writes about two deep principles: The{" "}
-            <a href="https://www.youtube.com/watch?v=oqtfB91i7Uw">
-              Principle of Optimism
-            </a>{" "}
-            says that <i>All evils are caused by insufficient knowledge</i>. The
-            momentous dichotomy says that 'Either a given technology is
-            possible, or else there must be some reason (say, of physics or
-            logic) why it isn’t possible.'
-          </>
-        ),
-      },
-    ],
-  },
-  {
-    name: "Taking Children Seriously",
-    description:
-      "Taking Children Seriously is a parenting movement and educational philosophy whose central idea is that it is possible and desirable to raise and educate children without either doing anything to them against their will or making them do anything against their will.",
-    conceptAreas: [
-      {
-        name: "Why is behaviorism wrong for people?",
-      },
-      {
-        name: "How will credential-less children survive?",
-        url: "https://www.takingchildrenseriously.com/how-will-credential-less-children-survive/",
-      },
-      {
-        name: "How do you raise a child to believe in freedom?",
-        url: "https://www.takingchildrenseriously.com/how-do-you-raise-a-child-to-believe-in-freedom/",
-      },
-      {
-        name: "Why do children lack fundamental rights?",
-        description:
-          "What matters is the presence of a mind, not the size of the person.",
-      },
-    ],
-  },
-  {
-    name: "Art and Psychology",
-    description:
-      "We're still at the beginning of unifying existing concepts of psychology with Critical Rationalism.",
-    conceptAreas: [
-      {
-        name: "Is beauty objective? What is the origin of aesthetics?",
-        description: (
-          <>
-            David Deutch wrote about this in The beginning of Infinity, Why are
-            flowers beautiful? and in his{" "}
-            <a href="https://www.nature.com/articles/526S16a">
-              Interview in Nature
-            </a>
-          </>
-        ),
-      },
-      {
-        name: "What is Fun? The Fun Criterion",
-        description: (
-          <>
-            Fun is when ideas affect each other (by evolution). Lulie Tannett
-            interviewed David Deutsch about his explanaiton{" "}
-            <a href="https://www.youtube.com/watch?v=idvGlr0aT3c">here</a>.
-          </>
-        ),
-      },
-    ],
-  },
-  {
-    name: "Memes",
-    description: (
-      <>
-        Memes are ideas that spread from person to person, and from culture to
-        culture. David Deutsch, in The Beginning of Infinity, expanded on and
-        corrected parts of Susan Blackmore's{" "}
-        <a href="https://www.goodreads.com/book/show/254502.The_Meme_Machine">
-          The Meme Machine
-        </a>
-        .
-      </>
-    ),
-    conceptAreas: [
-      {
-        name: "What are Rational and Anti-Rational Memes?",
-      },
-      {
-        name: "How do memes create Static and Dynamic Societies?",
-      },
-    ],
-  },
-  {
-    name: "Computer Science and AI",
-    description: <></>,
-    conceptAreas: [
-      {
-        name: "What are arbstractions? Do they exist in reality?",
-      },
-      {
-        name: "What are the limitations of the turing test?",
-        description: (
-          <>
-            David Deutsch expanded on this and other criticisms of the current
-            AGI research in{" "}
-            <a href="http://www.daviddeutsch.org.uk/wp-content/uploads/2019/07/PossibleMinds_Deutsch.pdf">
-              Possible Minds
-            </a>{" "}
-            (edited by John Brockman) and in his article{" "}
+            Knowledge growth{" "}
             <a href="https://aeon.co/essays/how-close-are-we-to-creating-artificial-intelligence">
-              Creative blocks
-            </a>{" "}
-            published on Aeon.
-          </>
-        ),
-      },
-      {
-        name: "How can we formalize the evolution of knowledge by conjecture and criticism?",
-        description: (
-          <>
-            The AGI researcher Ella Hoeppner has proposed something that she
-            calls{" "}
-            <a href="https://www.ellahoeppner.com/ctp-theory-a-critical-rationalist-approach-to-agi/">
-              Claim-Theory-Problem Theory (CTP Theory)
+              requires conjectures
             </a>
-            .
+            . Machine learning requires feeding data into fixed algorithms. Data
+            is critical, but a general intelligence must be able to{" "}
+            <a href="https://www.youtube.com/watch?v=IeY8QaMsYqY&ab_channel=DavidDeutsch">
+              create its own guesses{" "}
+            </a>
+            and explanations.
           </>
         ),
       },
