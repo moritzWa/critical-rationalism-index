@@ -4,7 +4,7 @@ module.exports = {
     description: `A crowdsourced collection of resources about and adjacent to critical rationalism.`,
     author: `@moritzWa`,
     twitterUsername: `@MoritzW42`,
-    image: `/deutsch-spiegel.webp`,
+    image: `https://cdn.prod.www.spiegel.de/images/b00a116b-cbf4-4c7e-9151-12b2bb4bdeee_w996_r1.7774390243902438_fpx30_fpy40.webp`,
     siteUrl: `https://criticalrationalism.org/`,
   },
   flags: {
