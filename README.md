@@ -16,6 +16,7 @@
 - [ ] Add footer with links to other pages
 - [ ] make homepage more visually appealing
   - [ ] illustrations etc.
+- [ ] add tweets about BoI via https://famewall.io/blog/embed-twitter-testimonials-on-your-website/
 
 ## About this site
 

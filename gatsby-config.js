@@ -83,7 +83,7 @@ module.exports = {
     {
       resolve: "@raae/gatsby-plugin-svg-emoji-favicon",
       options: {
-        emoji: "🧬",
+        emoji: "∞",
       },
     },
     // {
