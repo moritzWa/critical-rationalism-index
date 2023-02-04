@@ -19,7 +19,7 @@ function Header({ siteTitle }) {
       <div className="block lg:hidden">
         <button
           onClick={() => toggleExpansion(!isExpanded)}
-          className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-white hover:border-white"
+          className="flex items-center px-3 py-2 text-white border border-white rounded hover:text-purple-300 hover:border-white"
         >
           <svg
             className="w-3 h-3 fill-current"
@@ -39,27 +39,33 @@ function Header({ siteTitle }) {
         <div className="text-sm lg:flex-grow">
           <Link
             to={`/Resources`}
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-purple-300"
           >
             Resources
           </Link>
           <Link
             to={`/People`}
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-purple-300"
           >
             People to follow
           </Link>
           <Link
             to="https://criticalrationalism.substack.com/"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-purple-300"
           >
             Newsletter
           </Link>
           <Link
             to="https://www.eventbrite.com/e/the-rat-fest-tickets-387125692367?foo=bar"
-            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-white"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-purple-300"
           >
-            Conference (Jun 29, 2023)
+            Rat Fest Conference (Jun 29, 2023)
+          </Link>
+          <Link
+            to="https://docs.google.com/forms/d/e/1FAIpQLSfJnB_4-cy9PzwNEOdz0nJMGpfdnaxVCfl6Udbr1HFpTmPa3Q/viewform?usp=sf_link"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-purple-300"
+          >
+            CR Forum Waitlist
           </Link>
         </div>
         {/* <a
