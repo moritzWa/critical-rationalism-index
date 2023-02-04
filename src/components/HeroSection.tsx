@@ -87,7 +87,7 @@ export default function HeroSection() {
               </span>
             </h1>
             <p className="max-w-md mx-auto mt-3 text-base text-gray-500 sm:text-lg md:mt-5 md:max-w-3xl md:text-xl">
-              Critical rationalism does for human knowledge what Charles
+              Critical Rationalism does for human knowledge what Charles
               Darwin's natural selection did for biology – it explains what
               knowledge is and how it grows.
             </p>

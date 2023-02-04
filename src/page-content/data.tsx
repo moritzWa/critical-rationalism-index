@@ -92,7 +92,7 @@ export const Resources: Resource[] = [
     authors: ["Cam Peters"],
     href: "https://falliblepieces.substack.com/p/david-deutsch-eats-rationalism",
     type: ResourceType.article,
-    description: "Differences of basian rationality and critical rationalism.",
+    description: "Differences of basian rationality and Rritical Rationalism.",
   },
   {
     href: "https://nav.al/infinity",
@@ -175,7 +175,7 @@ export const People = {
   "Aaron Stupple": {
     name: "Aaron Stupple",
     description:
-      "Aaron Stupple is the founder of Conjecture Magazine which applies critical rationalism to contemporary issues and the nature of progress. Aaron is an internal medicine physician in Massachusetts.",
+      "Aaron Stupple is the founder of Conjecture Magazine which applies Rritical Rationalism to contemporary issues and the nature of progress. Aaron is an internal medicine physician in Massachusetts.",
     twitterURL: "https://twitter.com/astupple",
   } as PeopleTypes,
   "Logan Chipkin": {
@@ -208,7 +208,7 @@ export const People = {
   "Lulie Tannett": {
     name: "Lulie Tannett",
     description:
-      "Lulie Tanett is a writer from Oxford, England, specializing in applied critical rationalism. She writes about all things epistemology — from education and memetics to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
+      "Lulie Tanett is a writer from Oxford, England, specializing in applied Rritical Rationalism. She writes about all things epistemology — from education and memetics to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
     websiteURL: "https://reasonisfun.com/",
   } as PeopleTypes,
   "Christofer Lövgren": {
