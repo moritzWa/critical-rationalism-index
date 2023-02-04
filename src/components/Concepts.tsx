@@ -11,7 +11,7 @@ const Concepts = () => {
         </h2>
         <p id="concepts" className="max-w-3xl mt-6 text-xl text-center">
           As a fundamental theory of knowledge, Critical Rationalism spans areas
-          such as epistemology, science, politics, decision making, and more.
+          such as science, politics, decision making, and more.
         </p>
       </div>
       <div>

@@ -10,6 +10,7 @@
     "@raae/gatsby-plugin-svg-emoji-favicon": "^0.1.5",
     "autoprefixer": "^10.4.7",
     "gatsby": "^4.24.4",
+    "gatsby-plugin-emoji-favicon": "^1.5.0",
     "gatsby-plugin-image": "^2.18.0",
     "gatsby-plugin-manifest": "^4.18.0",
     "gatsby-plugin-offline": "^5.18.0",

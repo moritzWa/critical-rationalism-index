@@ -80,5 +80,17 @@ module.exports = {
         tailwind: true,
       },
     },
+    {
+      resolve: "@raae/gatsby-plugin-svg-emoji-favicon",
+      options: {
+        emoji: "🧬",
+      },
+    },
+    // {
+    //   resolve: "gatsby-plugin-emoji-favicon",
+    //   options: {
+    //     emoji: "✈️",
+    //   },
+    // },
   ],
 }
