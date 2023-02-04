@@ -191,6 +191,13 @@ export const People = {
     websiteURL: "https://blog.dennishackethal.com/",
     twitterURL: "https://twitter.com/dchackethal",
   } as PeopleTypes,
+  "Arjun Khemani": {
+    name: "Arjun Khemani",
+    description:
+      "Unconventional high school student, you Popperians on the Internet changed my life. I write about progress, philosophy, science and education and have a podcast where I’ve chatted with guests like Chiara Marletto and Brett Hall",
+    websiteURL: "https://arjunkhemani.com",
+    twitterURL: "https://twitter.com/arjunkhemani",
+  } as PeopleTypes,
   "Ella Hoeppner": {
     name: "Ella Hoeppner",
     description:
