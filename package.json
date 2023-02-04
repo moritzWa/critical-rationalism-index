@@ -7,6 +7,7 @@
   "dependencies": {
     "@headlessui/react": "^1.7.3",
     "@heroicons/react": "^2.0.12",
+    "@raae/gatsby-plugin-svg-emoji-favicon": "^0.1.5",
     "autoprefixer": "^10.4.7",
     "gatsby": "^4.24.4",
     "gatsby-plugin-image": "^2.18.0",

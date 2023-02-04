@@ -1808,6 +1808,11 @@
     schema-utils "^3.0.0"
     source-map "^0.7.3"
 
+"@raae/gatsby-plugin-svg-emoji-favicon@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@raae/gatsby-plugin-svg-emoji-favicon/-/gatsby-plugin-svg-emoji-favicon-0.1.5.tgz#3c6e81fa126438804ecaf6787bbfb3e0ca133ff3"
+  integrity sha512-cqWt1EtvIqXzRrKLbmEZJDL211NLfFXSaPpnUy3/G6QYnFBXGw8SZ1sC/iNLXoweCdWLgwAjk0I7DZE3axQWMA==
+
 "@sideway/address@^4.1.0":
   version "4.1.2"
   resolved "https://registry.npmjs.org/@sideway/address/-/address-4.1.2.tgz"

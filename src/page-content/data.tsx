@@ -284,6 +284,13 @@ export const People = {
     websiteURL: "www.anchor.fm/falliblemanagement",
     twitterURL: "https://twitter.com/B_Vanderhaegen",
   } as PeopleTypes,
+  "Jesse Nichols": {
+    name: "Jesse Nichols",
+    description:
+      "Jesse Nichols is a software engineer and worked at Roam Resreach, Replit and Marble. He writes at infinitedays.org.",
+    websiteURL: "https://infinitedays.org/",
+    twitterURL: "https://twitter.com/JesseNichols",
+  } as PeopleTypes,
 }
 
 // Sources
