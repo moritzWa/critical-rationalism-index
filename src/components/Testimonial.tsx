@@ -96,9 +96,15 @@ export default function Testimonial() {
             </svg>
             <blockquote className="relative">
               <div className="text-xl font-medium leading-9 text-gray-900">
+                <p className="pb-2">
+                  Karl Popper laid out the theory of what is scientific and what
+                  is not… Deutsch dramatically expands on that in The Beginning
+                  of Infinity. The wide-ranging nature that he covers is
+                  incredible... These are all-encompassing, long-range
+                  philosophical ideas.
+                </p>
                 <p>
-                  I realized [The Beginning of Infinity a seminal books
-                  expanding on Critical Rationalism] is the best book that I
+                  I realized The Beginning of Infinity is the best book that I
                   read in 20 years. ...it's actually the most useful book i've
                   ever read and [...] one of the very few books that I felt made
                   me a lot smarter and it gave me a foundation for evaluating
