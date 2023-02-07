@@ -12,7 +12,7 @@ const People = (props: PageProps) => (
       <h1>People to follow</h1>
       <p className="pt-2">
         This is a non-comprehensive list of people that have expressed viewes
-        and cretaed artefacts aligned with Critical Rationalism.
+        and created artifacts aligned with Critical Rationalism.
       </p>
       <PeopleTable />
       <div className="flex justify-center">
