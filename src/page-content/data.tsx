@@ -83,7 +83,7 @@ export const Resources: Resource[] = [
     name: "The Myth of the Closed Mind: Understanding Why and How People Are Rational",
     authors: ["Ray Scott Percival"],
     description:
-      "Ray Scott Percival sets out to demolish the whole notion of the closed mind and of human irrationality",
+      "Ray Scott Percival sets out to demolish the whole notion of the closed mind and human irrationality",
     href: "https://www.goodreads.com/en/book/show/13235385",
     type: ResourceType.book,
   },
@@ -92,7 +92,8 @@ export const Resources: Resource[] = [
     authors: ["Cam Peters"],
     href: "https://falliblepieces.substack.com/p/david-deutsch-eats-rationalism",
     type: ResourceType.article,
-    description: "Differences of basian rationality and Rritical Rationalism.",
+    description:
+      "Differences of Bayesian Rationality and Critical Rationalism.",
   },
   {
     href: "https://nav.al/infinity",
@@ -175,7 +176,7 @@ export const People = {
   "Aaron Stupple": {
     name: "Aaron Stupple",
     description:
-      "Aaron Stupple is the founder of Conjecture Magazine which applies Rritical Rationalism to contemporary issues and the nature of progress. Aaron is an internal medicine physician in Massachusetts.",
+      "Aaron Stupple is the founder of Conjecture Magazine which applies Critical Rationalism to contemporary issues and the nature of progress. Aaron is an internal medicine physician in Massachusetts.",
     twitterURL: "https://twitter.com/astupple",
   } as PeopleTypes,
   "Logan Chipkin": {
@@ -202,7 +203,7 @@ export const People = {
   "Ella Hoeppner": {
     name: "Ella Hoeppner",
     description:
-      "Ella Hoeppner is a software engineer with an interest in epistemology, artificial general intelligence, and artificial life. She writes at FourStrands.org and at her website.",
+      "Ella Hoeppner is a software engineer with an interest in epistemology, artificial general intelligence, and artificial life. She writes at FourStrands.org and on her website.",
     websiteURL: "https://www.ellahoeppner.com/",
     twitterURL: "https://twitter.com/ella_hoeppner",
   } as PeopleTypes,
@@ -216,7 +217,7 @@ export const People = {
   "Lulie Tannett": {
     name: "Lulie Tannett",
     description:
-      "Lulie Tanett is a writer from Oxford, England, specializing in applied Rritical Rationalism. She writes about all things epistemology — from education and memetics to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
+      "Lulie Tanett is a writer from Oxford, England, specializing in applied Critical Rationalism. She writes about all things epistemology — from education and memetics to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
     websiteURL: "https://reasonisfun.com/",
   } as PeopleTypes,
   "Christofer Lövgren": {

@@ -9,6 +9,11 @@
       "language": "typescript",
       "scheme": "file",
       "pattern": "src/page-content/data.ts"
+    },
+    {
+      "language": "typescriptreact",
+      "scheme": "file",
+      "pattern": "src/page-content/data.tsx"
     }
   ]
 }
