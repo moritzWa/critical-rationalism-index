@@ -59,7 +59,7 @@ function Header({ siteTitle }) {
             to="https://www.eventbrite.com/e/the-rat-fest-tickets-387125692367?foo=bar"
             className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-purple-300"
           >
-            Rat Fest (Unconference, Jun 29)
+            Rat Fest (6.30-7.2, 2023)
           </Link>
           <Link
             to="https://docs.google.com/forms/d/e/1FAIpQLSfJnB_4-cy9PzwNEOdz0nJMGpfdnaxVCfl6Udbr1HFpTmPa3Q/viewform?usp=sf_link"
