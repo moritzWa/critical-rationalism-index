@@ -266,7 +266,7 @@ export const People = {
   } as PeopleTypes,
   "Cam Peters": {
     name: "Cam Peters", // likley Cameron Peters
-    description: "Writes falliblepieces.substack.com.",
+    description: "Cam Peters writes at falliblepieces.substack.com.",
     twitterURL: "https://twitter.com/campeters4",
     websiteURL: "https://falliblepieces.substack.com/",
   } as PeopleTypes,
