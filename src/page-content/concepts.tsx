@@ -18,7 +18,7 @@ type Concept = {
 
 export const ConceptSections: ConceptSection[] = [
   {
-    name: "What is critical rationalism?",
+    name: "What is Rritical Rationalism?",
     description:
       "A theory of knowledge developed by Karl Popper that is both enormously powerful and tragically underappreciated. Of all of the possible ways in which the world may be transformed, the overwhelming majority of them require the presence of knowledge to be rendered.",
     conceptAreas: [
@@ -67,7 +67,7 @@ export const ConceptSections: ConceptSection[] = [
   {
     name: "Politics",
     description:
-      "Critical rationalism applies Popper’s theory of knowledge to selecting leaders and policies.",
+      "Critical Rationalism applies Popper’s theory of knowledge to selecting leaders and policies.",
     conceptAreas: [
       {
         name: (
@@ -90,7 +90,7 @@ export const ConceptSections: ConceptSection[] = [
     ],
   },
   {
-    name: "AGI and computer science",
+    name: "AGI and Computer Science",
     description: (
       <>
         A philosophy of knowledge has deep implications for how knowledge could
