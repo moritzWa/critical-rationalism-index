@@ -293,6 +293,13 @@ export const People = {
     websiteURL: "https://infinitedays.org/",
     twitterURL: "https://twitter.com/JesseNichols",
   } as PeopleTypes,
+  "Moritz Wallawitsch": {
+    name: "Moritz Wallawitsch",
+    description:
+      "Moritz Wallawitsch is working on RemNote.com, a knowledge management platform. He writes and podcasts about cognitive augmentation, startups and epistemology at scalingknowledge.substack.com. He also created this website.",
+    websiteURL: "https://scalingknowledge.substack.com/",
+    twitterURL: "https://twitter.com/moritzw42",
+  } as PeopleTypes,
 }
 
 // Sources
