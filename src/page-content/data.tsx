@@ -194,7 +194,7 @@ export const People = {
   "Arjun Khemani": {
     name: "Arjun Khemani",
     description:
-      "Unconventional high school student, you Popperians on the Internet changed my life. I write about progress, philosophy, science and education and have a podcast where I’ve chatted with guests like Chiara Marletto and Brett Hall",
+      "Arjun Khemani is an unconventional high school student who writes about progress, philosophy, science, and optimism and is the host of the Arjun Khemani Podcast.",
     websiteURL: "https://arjunkhemani.com",
     twitterURL: "https://twitter.com/arjunkhemani",
   } as PeopleTypes,

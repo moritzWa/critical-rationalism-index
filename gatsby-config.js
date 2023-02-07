@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Critical Rationalism Index`,
-    description: `A crowdsourced collection of resources about and adjacent to critical rationalism.`,
+    title: `Critical Rationalism Hub`,
+    description: `A crowdsourced collection of resources about and adjacent to Critical Rationalism.`,
     author: `@moritzWa`,
     twitterUsername: `@MoritzW42`,
     image: `https://cdn.prod.www.spiegel.de/images/b00a116b-cbf4-4c7e-9151-12b2bb4bdeee_w996_r1.7774390243902438_fpx30_fpy40.webp`,

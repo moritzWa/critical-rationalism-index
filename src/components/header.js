@@ -97,7 +97,7 @@ Header.propTypes = {
 }
 
 Header.defaultProps = {
-  siteTitle: `Critiral Rationalism Index`,
+  siteTitle: `Critiral Rationalism Hub`,
 }
 
 export default Header
