@@ -18,7 +18,7 @@ type Concept = {
 
 export const ConceptSections: ConceptSection[] = [
   {
-    name: "What is Rritical Rationalism?",
+    name: "What is Critical Rationalism?",
     description:
       "A theory of knowledge developed by Karl Popper that is both enormously powerful and tragically underappreciated. Of all of the possible ways in which the world may be transformed, the overwhelming majority of them require the presence of knowledge to be rendered.",
     conceptAreas: [
