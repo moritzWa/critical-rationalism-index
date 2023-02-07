@@ -10,7 +10,7 @@
 
 ## To-dos i.e. How to contribute `code`
 
-- [ ] add link to resources to concept section that opens the resources filtered by the conceps.
+- [ ] add link to resources to concept section that opens the resources filtered by the concepts.
   - [ ] pass param to the resources page
   - [ ] add concept tags to each resource
 - [ ] Add footer with links to other pages
