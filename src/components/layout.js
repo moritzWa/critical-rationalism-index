@@ -38,9 +38,7 @@ const Layout = ({ children }) => {
             bottom: "1rem",
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a> by{" "}
+          © {new Date().getFullYear()}, Built by{" "}
           <a href="https://twitter.com/MoritzW42/">Moritz</a>
         </footer>
       </div>

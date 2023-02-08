@@ -184,7 +184,7 @@ export const People = {
     description:
       "Logan Chipkin is a writer based in Philadelphia. His previous publications can be found on his website. He is also working on a fiction novel, chapters of which can be found on his Substack.",
     websiteURL: "http://www.loganchipkin.com/",
-    twitter: "https://twitter.com/ChipkinLogan",
+    twitterURL: "https://twitter.com/ChipkinLogan",
   } as PeopleTypes,
   "Dennis Hackethal": {
     name: "Dennis Hackethal",
@@ -292,6 +292,13 @@ export const People = {
       "Jesse Nichols is a software engineer and worked at Roam Research, Replit and Marble. He writes at infinitedays.org.",
     websiteURL: "https://infinitedays.org/",
     twitterURL: "https://twitter.com/JesseNichols",
+  } as PeopleTypes,
+  "Moritz Wallawitsch": {
+    name: "Moritz Wallawitsch",
+    description:
+      "Moritz Wallawitsch is working on RemNote.com, a knowledge management platform. He writes and podcasts about cognitive augmentation, startups and epistemology at scalingknowledge.substack.com. He also created this website.",
+    websiteURL: "https://scalingknowledge.substack.com/",
+    twitterURL: "https://twitter.com/moritzw42",
   } as PeopleTypes,
 }
 

@@ -17,10 +17,8 @@ const People = (props: PageProps) => (
       <PeopleTable />
       <div className="flex justify-center">
         <div className="p-10 text-gray-500">
-          If you are CR aligned and wish to be listed here, please add your
-          information via this form (I'll triage the form submissions every few
-          weeks) You are CR aligned/interested and are open to be listed here?
-          Please add your information via a{" "}
+          You are CR aligned/interested and are open to be listed here? Please
+          add your information via a{" "}
           <a href="https://github.com/moritzWa/critical-rationalism-index">
             GitHub PR
           </a>{" "}
