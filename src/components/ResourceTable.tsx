@@ -64,7 +64,7 @@ export default function ResourceTable() {
                         "whitespace-nowrap px-3 py-4 text-sm text-gray-500 hidden sm:table-cell"
                       )}
                     >
-                      {resource.authors}
+                      {resource.authors.join(' ')}
                     </td>
                     <td
                       className={clsx(

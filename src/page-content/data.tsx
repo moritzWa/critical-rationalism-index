@@ -289,7 +289,7 @@ export const People = {
   "Jesse Nichols": {
     name: "Jesse Nichols",
     description:
-      "Jesse Nichols is a software engineer and worked at Roam Resreach, Replit and Marble. He writes at infinitedays.org.",
+      "Jesse Nichols is a software engineer and worked at Roam Research, Replit and Marble. He writes at infinitedays.org.",
     websiteURL: "https://infinitedays.org/",
     twitterURL: "https://twitter.com/JesseNichols",
   } as PeopleTypes,
