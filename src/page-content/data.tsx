@@ -219,6 +219,7 @@ export const People = {
     description:
       "Lulie Tanett is a writer from Oxford, England, specializing in applied Critical Rationalism. She writes about all things epistemology — from education and memetics to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
     websiteURL: "https://reasonisfun.com/",
+    twitterURL: "https://twitter.com/reasonisfun",
   } as PeopleTypes,
   "Christofer Lövgren": {
     name: "Christofer Lövgren",
