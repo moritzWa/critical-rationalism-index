@@ -71,7 +71,7 @@ export const Resources: Resource[] = [
     name: "Liberty Loves Reason: Darwin versus Political Correctness",
     authors: [
       "David Deutsch",
-      "Lulie Tannett",
+      "Lulie Tanett",
       "Ray Scott Percival",
       // "Edward Crumblehulme", could not find anything about this person
     ],
@@ -214,8 +214,8 @@ export const People = {
     websiteURL: "https://fourstrands.org/",
     twitterURL: "https://twitter.com/bnielson01",
   } as PeopleTypes,
-  "Lulie Tannett": {
-    name: "Lulie Tannett",
+  "Lulie Tanett": {
+    name: "Lulie Tanett",
     description:
       "Lulie Tanett is a writer from Oxford, England, specializing in applied Critical Rationalism. She writes about all things epistemology — from education and memetics to productivity and motivation, to how coercion affects rationality, progress and happiness.'",
     websiteURL: "https://reasonisfun.com/",
