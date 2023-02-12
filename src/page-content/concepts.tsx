@@ -67,7 +67,7 @@ export const ConceptSections: ConceptSection[] = [
   {
     name: "Politics",
     description:
-      "Critical Rationalism applies Popper’s theory of knowledge to selecting leaders and policies.",
+      "Critical Rationalism applies Popper’s theory of knowledge to remove bad leaders and policies.",
     conceptAreas: [
       {
         name: (
