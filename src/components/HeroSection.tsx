@@ -91,19 +91,23 @@ export default function HeroSection() {
               Darwin's natural selection did for biology – it explains what
               knowledge is and how it grows.
             </p>
-            <div className="max-w-md mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
-              {/* <div className="rounded-md shadow">
+            <div className="grid grid-flow-col gap-2 mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
+              <div className="rounded-md shadow rt-3 sm:mt-0 sm:ml-3">
                 <a
-                  href="https://www.youtube.com/watch?v=folTvNDL08A&t=649s"
-                  className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:px-10"
+                  href="https://criticalrationalism.substack.com/"
+                  // secondary button
+                  className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md hover:bg-gray-50 md:py-4 md:px-10"
                 >
-                  Introduction Video
+                  Subscribe To Newsletter
                 </a>
-              </div> */}
+              </div>
+
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
                   href="#concepts"
-                  className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md hover:bg-gray-50 md:py-4 md:px-10"
+                  // primary button
+                  className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:px-10"
+                  // className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md hover:bg-gray-50 md:py-4 md:px-10"
                 >
                   Explore Concepts
                 </a>
