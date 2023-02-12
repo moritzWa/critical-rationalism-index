@@ -95,7 +95,6 @@ export default function HeroSection() {
               <div className="rounded-md shadow rt-3 sm:mt-0 sm:ml-3">
                 <a
                   href="https://criticalrationalism.substack.com/"
-                  // secondary button
                   className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md hover:bg-gray-50 md:py-4 md:px-10"
                 >
                   Subscribe To Newsletter
@@ -105,9 +104,7 @@ export default function HeroSection() {
               <div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
                 <a
                   href="#concepts"
-                  // primary button
                   className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-white bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-700 md:py-4 md:px-10"
-                  // className="flex items-center justify-center w-full px-8 py-3 text-base font-medium text-indigo-600 bg-white border border-transparent rounded-md hover:bg-gray-50 md:py-4 md:px-10"
                 >
                   Explore Concepts
                 </a>
