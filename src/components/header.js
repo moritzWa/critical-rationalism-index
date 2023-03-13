@@ -67,24 +67,20 @@ function Header({ siteTitle }) {
           >
             CR Forum Waitlist
           </Link>
-        </div>
-        {/* <a
-            // href="https://github.com/moritzWa/critical-rationalism-index"
-            target="_blank"
-            rel="noreferrer"
-            className='pr-4'
+          <Link
+            to="https://github.com/moritzWa/critical-rationalism-index"
+            className="block mt-4 mr-4 text-white lg:inline-block lg:mt-0 hover:text-purple-300"
           >
-          <Button onClick={() => alert("A Substack will be linked here in the coming days.")}>
-              Newsletter
-          </Button>
-          </a> */}
+            Contribute
+          </Link>
+        </div>{" "}
         <div className={isExpanded && "mt-4"}>
           <a
-            href="https://github.com/moritzWa/critical-rationalism-index"
+            href="https://criticalrationalism.substack.com/"
             target="_blank"
             rel="noreferrer"
           >
-            <Button>Contribute</Button>
+            <Button>Subscribe to Newsletter</Button>
           </a>
         </div>
       </div>
