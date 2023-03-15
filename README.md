@@ -8,15 +8,19 @@
 
 ---
 
-## To-dos i.e. How to contribute `code`
+## To-dos—How to contribute `code`
 
 - [ ] add link to resources to concept section that opens the resources filtered by the concepts.
   - [ ] pass param to the resources page
   - [ ] add concept tags to each resource
 - [ ] Add footer with links to other pages
+
+- [ ] testimonials: add tweets about CR or BoI via https://famewall.io/blog/embed-twitter-testimonials-on-your-website/
+
+## To-dos—How to contribute `design`
+
 - [ ] make homepage more visually appealing
-  - [ ] illustrations etc.
-- [ ] add tweets about BoI via https://famewall.io/blog/embed-twitter-testimonials-on-your-website/
+- [ ] Add one illustration for each concept sections ("What is Critical Rationalism?", "Politics", ...)
 
 ## About this site
 
