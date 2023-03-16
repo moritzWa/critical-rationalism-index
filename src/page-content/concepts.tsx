@@ -164,7 +164,7 @@ export const ConceptSections: ConceptSection[] = [
           </>
         ),
         description:
-          "Children are are the broadest subset of people that society systematically denies basic rights like bodily autonomy and private property.",
+          "Children are the broadest subset of people that society systematically denies basic rights like bodily autonomy and private property.",
       },
       {
         name: (
