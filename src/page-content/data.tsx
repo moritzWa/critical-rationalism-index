@@ -301,6 +301,13 @@ export const People = {
     websiteURL: "https://scalingknowledge.substack.com/",
     twitterURL: "https://twitter.com/moritzw42",
   } as PeopleTypes,
+  "Phil Filippak": {
+    name: "Phil Filippak",
+    description:
+      "Phil Filippak raises awareness about The Beginning of Infinity wherever he's currently located and publishes occasional essays at unstableorbits.substack.com. He's working on Architect of Thought, a VR ecosystem for experimental brain exercises.",
+    websiteURL: "https://unstableorbits.substack.com/",
+    twitterURL: "https://twitter.com/blisstweeting",
+  } as PeopleTypes,
 }
 
 // Sources
