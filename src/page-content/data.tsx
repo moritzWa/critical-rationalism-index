@@ -294,19 +294,19 @@ export const People = {
     websiteURL: "https://infinitedays.org/",
     twitterURL: "https://twitter.com/JesseNichols",
   } as PeopleTypes,
-  "Moritz Wallawitsch": {
-    name: "Moritz Wallawitsch",
-    description:
-      "Moritz Wallawitsch is working on RemNote.com, a knowledge management platform. He writes and podcasts about cognitive augmentation, startups and epistemology at scalingknowledge.substack.com. He also created this website.",
-    websiteURL: "https://scalingknowledge.substack.com/",
-    twitterURL: "https://twitter.com/moritzw42",
-  } as PeopleTypes,
   "Phil Filippak": {
     name: "Phil Filippak",
     description:
       "Phil Filippak raises awareness about The Beginning of Infinity wherever he's currently located and publishes occasional essays at unstableorbits.substack.com. He's working on Architect of Thought, a VR ecosystem for experimental brain exercises.",
     websiteURL: "https://unstableorbits.substack.com/",
     twitterURL: "https://twitter.com/blisstweeting",
+  } as PeopleTypes,
+  "Moritz Wallawitsch": {
+    name: "Moritz Wallawitsch",
+    description:
+      "Moritz Wallawitsch is working on RemNote.com, a knowledge management platform. He writes and podcasts about cognitive augmentation, startups and epistemology at scalingknowledge.substack.com. He also created this website.",
+    websiteURL: "https://scalingknowledge.substack.com/",
+    twitterURL: "https://twitter.com/moritzw42",
   } as PeopleTypes,
 }
 
