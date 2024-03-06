@@ -89,7 +89,7 @@ export default function HeroSection() {
               Darwin&apos;s natural selection did for biology – it explains what
               knowledge is and how it grows.
             </p>
-            <div className="grid grid-flow-col gap-2 mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
+            <div className="grid grid-flow-row md:grid-flow-col gap-2 mx-auto mt-5 sm:flex sm:justify-center md:mt-8">
               <div className="rounded-md shadow rt-3 sm:mt-0">
                 <a
                   href="https://criticalrationalism.substack.com/"
