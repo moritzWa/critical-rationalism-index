@@ -12,10 +12,7 @@ export default function PeopleTable() {
       <div className="-mx-4 -my-2 sm:-mx-6 lg:-mx-8">
         <div className="inline-block min-w-full py-2 align-middle">
           <div className="shadow-sm ring-1 ring-black ring-opacity-5">
-            <table
-              className="min-w-full border-separate"
-              style={{ borderSpacing: 0 }}
-            >
+            <table className="min-w-full border-separate boarder-spacing-0">
               <thead className="bg-gray-50">
                 <tr>
                   <th

@@ -1,3 +1,4 @@
+import { Navbar } from "@/components/Navbar";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -16,7 +17,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <Navbar />
       <body className={inter.className}>{children}</body>
+      <footer className="m-4 bottom-0">
+        © {new Date().getFullYear()}, Built by{" "}
+        <a href="https://twitter.com/MoritzW42/">Moritz</a>
+      </footer>
     </html>
   );
 }

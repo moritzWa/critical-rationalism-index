@@ -1,12 +1,7 @@
 import PeopleTable from "@/components/PeopleTable";
-import Layout from "../layout";
-
-// import Layout from "../components/layout"
-// import SEO from "../components/seo"
-// import PeopleTable from "../components/PeopleTable"
 
 const People = () => (
-  <Layout>
+  <div>
     <div className="p-8">
       <h1>People to follow</h1>
       <p className="pt-2">
@@ -26,7 +21,7 @@ const People = () => (
         </div>
       </div>
     </div>
-  </Layout>
+  </div>
 );
 
 export default People;

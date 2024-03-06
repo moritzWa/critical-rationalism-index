@@ -1,9 +1,9 @@
 import React from "react";
 
 const Button = (props: {
-  children: React.ReactNode;
-  className: string;
-  onClick: () => void;
+  children: React.ReactNode | string;
+  className?: string;
+  onClick?: () => void;
 }) => {
   return (
     <button

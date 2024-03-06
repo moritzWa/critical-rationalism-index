@@ -1,12 +1,10 @@
 import ResourceTable from "@/components/ResourceTable";
-import Layout from "../layout";
 
 // TODO: add filter logic:
 // pressing pill button should filter for books articles podcasts etc.
 // and pass this state down to the table component
 
 const People = () => (
-  <Layout>
     <div className="p-8">
       <h1>Resources</h1>
       <p className="pt-2">
@@ -15,7 +13,6 @@ const People = () => (
       </p>
       <ResourceTable />
     </div>
-  </Layout>
 );
 
 export default People;
