@@ -104,8 +104,8 @@ export default function Testimonial() {
                 <p>
                   I realized The Beginning of Infinity is the best book that I
                   read in 20 years. ...it&apos;s actually the most useful book
-                  i've ever read and [...] one of the very few books that I felt
-                  made me a lot smarter and it gave me a foundation for
+                  i&apos;ve ever read and [...] one of the very few books that I
+                  felt made me a lot smarter and it gave me a foundation for
                   evaluating what is true and what is not going forward. It also
                   shattered a lot of beliefs and myths that I had.
                 </p>

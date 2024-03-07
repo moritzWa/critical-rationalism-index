@@ -70,7 +70,7 @@ export const Navbar = () => {
               </Link>
             </li>
             <li>
-              <div className={isExpanded ? "mt-4" : undefined}>
+              <div>
                 <Link
                   href="https://criticalrationalism.substack.com/"
                   target="_blank"
