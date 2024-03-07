@@ -25,6 +25,7 @@ function constructMetadata({
     description,
     openGraph: {
       title,
+      url: "https://criticalrationalism.org/",
       description,
       images: [
         {
