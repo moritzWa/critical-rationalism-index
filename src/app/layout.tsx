@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = constructMetadata();
 
-export function constructMetadata({
+function constructMetadata({
   title = `Critical Rationalism Hub`,
   description = `A crowdsourced collection of resources about and adjacent to Critical Rationalism.`,
   image = "https://cdn.prod.www.spiegel.de/images/b00a116b-cbf4-4c7e-9151-12b2bb4bdeee_w996_r1.7774390243902438_fpx30_fpy40.webp",
