@@ -309,37 +309,29 @@ export const People = {
     websiteURL: "www.anchor.fm/falliblemanagement",
     twitterURL: "https://twitter.com/B_Vanderhaegen",
   } as PeopleTypes,
-  "Jesper Bylund": {
-    name: "Jesper Bylund",
+  "Jesse Nichols": {
+    name: "Jesse Nichols",
     description:
-      "Jesper Bylund is a Designer from Sweden who uses Popperian epistemology in product design. He writes about his processes and work on twitter and his website.",
-    websiteURL: "https://jesperbylund.com/",
-    twitterURL: "https://twitter.com/jesperbylund",
+      "Jesse Nichols is a software engineer and worked at Roam Research, Replit and Marble. He writes at infinitedays.org.",
+    websiteURL: "https://infinitedays.org/",
+    twitterURL: "https://twitter.com/JesseNichols",
+  } as PeopleTypes,
 
-    "Jesse Nichols": {
-      name: "Jesse Nichols",
-      description:
-        "Jesse Nichols is a software engineer and worked at Roam Research, Replit and Marble. He writes at infinitedays.org.",
-      websiteURL: "https://infinitedays.org/",
-      twitterURL: "https://twitter.com/JesseNichols",
-    } as PeopleTypes,
+  "Chris Best": {
+    name: "Chris Best",
+    description:
+      "Chris Best is the co-founder and CEO of Substack, a platform that enables writers to publish newsletters and get paid for their work.",
+    websiteURL: "https://cb.substack.com/",
+    twitterURL: "https://twitter.com/cbest",
+  } as PeopleTypes,
 
-    "Chris Best": {
-      name: "Chris Best",
-      description:
-        "Chris Best is the co-founder and CEO of Substack, a platform that enables writers to publish newsletters and get paid for their work.",
-      websiteURL: "https://cb.substack.com/",
-      twitterURL: "https://twitter.com/cbest",
-    } as PeopleTypes,
-
-    "Moritz Wallawitsch": {
-      name: "Moritz Wallawitsch",
-      description:
-        "Moritz Wallawitsch is working on RemNote.com, a knowledge management platform. He writes and podcasts about cognitive augmentation, startups and epistemology at scalingknowledge.substack.com. He also created this website.",
-      websiteURL: "https://scalingknowledge.substack.com/",
-      twitterURL: "https://twitter.com/moritzw42",
-    } as PeopleTypes,
-  },
+  "Moritz Wallawitsch": {
+    name: "Moritz Wallawitsch",
+    description:
+      "Moritz Wallawitsch is working on RemNote.com, a knowledge management platform. He writes and podcasts about cognitive augmentation, startups and epistemology at scalingknowledge.substack.com. He also created this website.",
+    websiteURL: "https://scalingknowledge.substack.com/",
+    twitterURL: "https://twitter.com/moritzw42",
+  } as PeopleTypes,
 };
 
 enum SourceType {
