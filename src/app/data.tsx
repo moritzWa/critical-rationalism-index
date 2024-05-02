@@ -325,6 +325,12 @@ export const People = {
     twitterURL: "https://twitter.com/cbest",
   } as PeopleTypes,
 
+  popperazzi: {
+    name: "popperazzi",
+    description: "critrat memes (popper & deutsch)",
+    twitterURL: "https://twitter.com/poppermemes",
+  },
+
   "Moritz Wallawitsch": {
     name: "Moritz Wallawitsch",
     description:
